@@ -1,8 +1,8 @@
 # Homebrew Casks for Mac Source Ports games (unofficial)
 
-`brew install --cask catskull/msp-homebrew/<cask>`
+`brew install --cask catskull/homebrew-msp/<cask>`
 
-Or `brew tap catskull/msp-homebrew` and then `brew install --cask <formula>`.
+Or `brew tap catskull/homebrew-msp` and then `brew install --cask <formula>`.
 
 ## Development
 - `wget --mirror --convert-links --adjust-extension --page-requisites --no-parent -P mspsite https://www.macsourceports.com/games`
