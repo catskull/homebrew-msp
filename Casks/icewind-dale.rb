@@ -4,9 +4,11 @@ cask "icewind-dale" do
 
   url "https://github.com/MacSourcePorts/MSPBuildSystem/releases/download/GemRB-0.9.4/gemrb-0.9.4.dmg"
   name "Icewind Dale"
-  desc "Another Infinity Engine game taking place in a different Dungeons & Dragons region, Icewind Dale was developed by Black Isle studios, the developer beind the original Fallout games. This source port will also play the expansion pack, Icewind Dale: Heart of Winter, which is usually included in modern digital repackagings.Note that GemRB requires the files from the original game, not the Enhanced Edition, however digital retailers such as GOG will also include the regular edition when you purchased the Enhanced Edition. Also worth noting that the GemRB site says that the sequel Icewind Dale II is playable but not completable, so if you want to try that one out just be advised support for it is incomplete.
+  desc <<~DESC
+Another Infinity Engine game taking place in a different Dungeons & Dragons region, Icewind Dale was developed by Black Isle studios, the developer beind the original Fallout games. This source port will also play the expansion pack, Icewind Dale: Heart of Winter, which is usually included in modern digital repackagings.Note that GemRB requires the files from the original game, not the Enhanced Edition, however digital retailers such as GOG will also include the regular edition when you purchased the Enhanced Edition. Also worth noting that the GemRB site says that the sequel Icewind Dale II is playable but not completable, so if you want to try that one out just be advised support for it is incomplete.
 Developer:  Black Isle Studios
-Release Date:  June 29, 2000"
+Release Date:  June 29, 2000
+  DESC
   homepage "https://macsourceports.com/game/icewinddale"
 
   app "gemrb.app"

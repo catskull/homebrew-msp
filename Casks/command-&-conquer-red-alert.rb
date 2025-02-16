@@ -4,9 +4,11 @@ cask "command-&-conquer-red-alert" do
 
   url "https://github.com/OpenRA/OpenRA/releases/download/release-20231010/OpenRA-release-20231010.dmg"
   name "Command & Conquer: Red Alert"
-  desc "Released about a year after the original game Command & Conquer: Red Alert is a prequel that features fighting an aggressive Soviet Union trying to take over Europe. Doubling down on the modern warfare, rocking music and cheesy cutscenes of the original, this sequel is a fan favorite.OpenRA can download a subset of data from a freeware release to get going quickly, but installing the full game's data from a disc is also supported.
+  desc <<~DESC
+Released about a year after the original game Command & Conquer: Red Alert is a prequel that features fighting an aggressive Soviet Union trying to take over Europe. Doubling down on the modern warfare, rocking music and cheesy cutscenes of the original, this sequel is a fan favorite.OpenRA can download a subset of data from a freeware release to get going quickly, but installing the full game's data from a disc is also supported.
 Developer:  Westwood Studios
-Release Date:  November 22, 1996"
+Release Date:  November 22, 1996
+  DESC
   homepage "https://macsourceports.com/game/cncra"
 
   app "OpenRA - Dune 2000.app"

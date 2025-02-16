@@ -4,9 +4,11 @@ cask "baldurs-gate-ii-shadows-of-amn" do
 
   url "https://github.com/MacSourcePorts/MSPBuildSystem/releases/download/GemRB-0.9.4/gemrb-0.9.4.dmg"
   name "Baldur's Gate II: Shadows of Amn"
-  desc "The sequel to the original, Baldur's Gate II: Shadows of Amn is bigger and more ambitious than its predecessor. This source port will also play the expansion pack, Baldur's Gate II: Throne of Bhaal, which is usually included in modern digital repackagings.Note that GemRB requires the files from the original game, not the Enhanced Edition, however digital retailers such as GOG will also include the regular edition when you purchased the Enhanced Edition.
+  desc <<~DESC
+The sequel to the original, Baldur's Gate II: Shadows of Amn is bigger and more ambitious than its predecessor. This source port will also play the expansion pack, Baldur's Gate II: Throne of Bhaal, which is usually included in modern digital repackagings.Note that GemRB requires the files from the original game, not the Enhanced Edition, however digital retailers such as GOG will also include the regular edition when you purchased the Enhanced Edition.
 Developer:  BioWare
-Release Date:  September 21, 2000"
+Release Date:  September 21, 2000
+  DESC
   homepage "https://macsourceports.com/game/baldursgate2"
 
   app "gemrb.app"

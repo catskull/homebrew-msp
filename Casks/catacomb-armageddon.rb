@@ -4,10 +4,12 @@ cask "catacomb-armageddon" do
 
   url "https://github.com/MacSourcePorts/MSPBuildSystem/releases/download/ReflectionHLE-0.44.0/reflectionhle-20240926.dmg"
   name "Catacomb Armageddon"
-  desc "By now you know the drill - Catacomb Armageddon is the third game in the Catacombs series and the second entry in the Catacombs Adventures series. This time around the setting is "present day". There's some tech upgrades and added variety as a result, but for the most part this game is just more of the previous two, for better or worse.
+  desc <<~DESC
+By now you know the drill - Catacomb Armageddon is the third game in the Catacombs series and the second entry in the Catacombs Adventures series. This time around the setting is "present day". There's some tech upgrades and added variety as a result, but for the most part this game is just more of the previous two, for better or worse.
 Developer:  Softdisk
 Release Date:  1993
-Source Code Release Date:  June 9, 2014"
+Source Code Release Date:  June 9, 2014
+  DESC
   homepage "https://macsourceports.com/game/catacombarmageddon"
 
   app "reflectionhle.app"

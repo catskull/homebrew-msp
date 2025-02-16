@@ -4,10 +4,12 @@ cask "marathon--durandal" do
 
   url "https://github.com/Aleph-One-Marathon/alephone/releases/download/release-20240822/Marathon2-20240822-Mac.dmg"
   name "Marathon 2: Durandal"
-  desc "Marathon 2, released a year after the original, was also released for Windows 95. The game featured engine improvements and a plot that took place 17 years after the original. The graphics for this release have been upgraded from the release on XBLA.Bungie released all three Marathon titles as freeware in 2005 so the downloads from the Aleph One project include the entire game. No need to dig out your old discs here.
+  desc <<~DESC
+Marathon 2, released a year after the original, was also released for Windows 95. The game featured engine improvements and a plot that took place 17 years after the original. The graphics for this release have been upgraded from the release on XBLA.Bungie released all three Marathon titles as freeware in 2005 so the downloads from the Aleph One project include the entire game. No need to dig out your old discs here.
 Developer:  Bungie
 Release Date:  November 24, 1995
-Source Code Release Date:  January 2000"
+Source Code Release Date:  January 2000
+  DESC
   homepage "https://macsourceports.com/game/marathon2"
 
   app "Classic Marathon 2.app"

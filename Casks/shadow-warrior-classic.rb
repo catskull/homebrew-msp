@@ -4,10 +4,12 @@ cask "shadow-warrior-classic" do
 
   url "https://github.com/ZDoom/Raze/releases/download/1.10.2/raze-macos-1.10.2.zip"
   name "Shadow Warrior Classic"
-  desc "Shadow Warrior Classic is another first person shooter from 3D Realms using the same Build engine as Duke Nukem 3D, but a Kung-Fu movie theme with weapons like a katana and shurikens, along with 3D Realms' infamous humor.
+  desc <<~DESC
+Shadow Warrior Classic is another first person shooter from 3D Realms using the same Build engine as Duke Nukem 3D, but a Kung-Fu movie theme with weapons like a katana and shurikens, along with 3D Realms' infamous humor.
 Developer:  3D Realms
 Release Date:  September 12, 1997
-Source Code Release Date:  April 2, 2005"
+Source Code Release Date:  April 2, 2005
+  DESC
   homepage "https://macsourceports.com/game/swarrior"
 
   app "Raze.app"

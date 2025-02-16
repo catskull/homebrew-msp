@@ -4,10 +4,12 @@ cask "blake-stone-planet-strike" do
 
   url "https://github.com/MacSourcePorts/MSPBuildSystem/releases/download/bstone_1.2.13/bstone-1.2.13.dmg"
   name "Blake Stone: Planet Strike"
-  desc "Despite being overshadowed by DOOM, the original Blake Stone game must have sold well enough to merit a sequel, or at least not poorly enough to break from Apogee's "shareware game, retail sequel" pattern, we have Blake Stone: Planet Strike.Hailing from the golden age of PC gaming when a sequel could come out a year later the game doesn't deviate too much from its predecessor, essentially being more content with a few code tweaks and added features.The bstone source port is derived from the original source code, which Apogee released in 2013 to promote the Apogee Throwback Pack, a trend we should absolutley support seeing more of in the future.
+  desc <<~DESC
+Despite being overshadowed by DOOM, the original Blake Stone game must have sold well enough to merit a sequel, or at least not poorly enough to break from Apogee's "shareware game, retail sequel" pattern, we have Blake Stone: Planet Strike.Hailing from the golden age of PC gaming when a sequel could come out a year later the game doesn't deviate too much from its predecessor, essentially being more content with a few code tweaks and added features.The bstone source port is derived from the original source code, which Apogee released in 2013 to promote the Apogee Throwback Pack, a trend we should absolutley support seeing more of in the future.
 Developer:  JAM Productions
 Release Date:  October 28, 1994
-Source Code Release Date:  July 8, 2013"
+Source Code Release Date:  July 8, 2013
+  DESC
   homepage "https://macsourceports.com/game/bstone2"
 
   app "bstone.app"

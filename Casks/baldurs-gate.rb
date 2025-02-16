@@ -4,9 +4,11 @@ cask "baldurs-gate" do
 
   url "https://github.com/MacSourcePorts/MSPBuildSystem/releases/download/GemRB-0.9.4/gemrb-0.9.4.dmg"
   name "Baldur's Gate"
-  desc "The first game to use the Infinity Engine, Baldur's Gate uses Dungeons & Dragons rules and gameplay settings to create an iconic style of gameplay. This source port will also play the expansion pack, Baldur's Gate: Tales of the Sword Coast, which is usually included in modern digital repackagings.Note that GemRB requires the files from the original game, not the Enhanced Edition, however digital retailers such as GOG will also include the regular edition when you purchased the Enhanced Edition.
+  desc <<~DESC
+The first game to use the Infinity Engine, Baldur's Gate uses Dungeons & Dragons rules and gameplay settings to create an iconic style of gameplay. This source port will also play the expansion pack, Baldur's Gate: Tales of the Sword Coast, which is usually included in modern digital repackagings.Note that GemRB requires the files from the original game, not the Enhanced Edition, however digital retailers such as GOG will also include the regular edition when you purchased the Enhanced Edition.
 Developer:  BioWare
-Release Date:  December 21, 1998"
+Release Date:  December 21, 1998
+  DESC
   homepage "https://macsourceports.com/game/baldursgate"
 
   app "gemrb.app"

@@ -4,9 +4,11 @@ cask "indiana-jones-and-the-last-crusade" do
 
   url "https://aarongiles.com/dreamm/releases/dreamm-2.1.2-macos.dmg"
   name "Indiana Jones and the Last Crusade"
-  desc "Although it may seem like a redundant title, Indiana Jones and the Last Crusade: The Graphic Adventure is one of at least two games tied in with the movie, the other being "The Action Game". As Indiana Jones you must solve puzzles, interact with characters, and explore various locations across the globe in this epic quest. The game is known for its immersive storyline, challenging puzzles, and memorable scenes from the iconic film. It was the third game to use the SCUMM engine.
+  desc <<~DESC
+Although it may seem like a redundant title, Indiana Jones and the Last Crusade: The Graphic Adventure is one of at least two games tied in with the movie, the other being "The Action Game". As Indiana Jones you must solve puzzles, interact with characters, and explore various locations across the globe in this epic quest. The game is known for its immersive storyline, challenging puzzles, and memorable scenes from the iconic film. It was the third game to use the SCUMM engine.
 Developer:  Lucasfilm Games
-Release Date:  July 1989"
+Release Date:  July 1989
+  DESC
   homepage "https://macsourceports.com/game/indylastcrusade"
 
   app "dreamm.app"

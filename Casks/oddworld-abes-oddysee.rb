@@ -4,9 +4,11 @@ cask "oddworld-abes-oddysee" do
 
   url "https://github.com/MacSourcePorts/alive_reversing/releases/download/RELIVE_1.0/relive-ao-1.0-ao.dmg"
   name "Oddworld: Abe's Oddysee"
-  desc "A cheery game with a grotesque protagonist and a dark premise, Oddworld: Abe's Oddysee is one of the best selling PlayStation games of all time. This side scroller has you playing as Abe, an enslaved creature trying to rescue as many of his comrades as he can once they discover that management is about to go all "Soylent Green" on them for their next product line.
+  desc <<~DESC
+A cheery game with a grotesque protagonist and a dark premise, Oddworld: Abe's Oddysee is one of the best selling PlayStation games of all time. This side scroller has you playing as Abe, an enslaved creature trying to rescue as many of his comrades as he can once they discover that management is about to go all "Soylent Green" on them for their next product line.
 Developer:  Oddworld Inhabitants
-Release Date:  September 18, 1997"
+Release Date:  September 18, 1997
+  DESC
   homepage "https://macsourceports.com/game/oddworld-ao"
 
   app "relive-ao.app"

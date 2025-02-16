@@ -4,9 +4,11 @@ cask "fallout" do
 
   url "https://github.com/alexbatalov/fallout1-ce/releases/download/v1.1.0/fallout-ce-macos.dmg"
   name "Fallout"
-  desc "Fallout: A Post Nuclear Role Playing Game is the first game in the Fallout franchise. Originally intended to be a sequel to Wasteland, it follows a retrofuturistic society where you play as an adventurer surfacing from an underground vault designed to protect citizens from nuclear war.Like the Fallout 2 project, this source port project is the work of an individual who has reverse engineered the original source to the game as well as made a second, parallel version designed to run on modern machines.
+  desc <<~DESC
+Fallout: A Post Nuclear Role Playing Game is the first game in the Fallout franchise. Originally intended to be a sequel to Wasteland, it follows a retrofuturistic society where you play as an adventurer surfacing from an underground vault designed to protect citizens from nuclear war.Like the Fallout 2 project, this source port project is the work of an individual who has reverse engineered the original source to the game as well as made a second, parallel version designed to run on modern machines.
 Developer:  Interplay Productions
-Release Date:  October 10, 1997"
+Release Date:  October 10, 1997
+  DESC
   homepage "https://macsourceports.com/game/fallout"
 
   app "Fallout Community Edition.app"

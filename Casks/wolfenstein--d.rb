@@ -4,10 +4,12 @@ cask "wolfenstein--d" do
 
   url "https://maniacsvault.net/ecwolf/files/ecwolf/1.x/ecwolf-1.4.0.dmg"
   name "Wolfenstein 3-D"
-  desc "Wolfenstein 3-D is the granddaddy to all the modern first person shooters that came after it. Released as shareware in 1992 it launched the independent career of id Software that would result in DOOM and Quake. Though simplistic by today's standards, it still holds up as a fun maze game with the occasional Nazi to shoot.
+  desc <<~DESC
+Wolfenstein 3-D is the granddaddy to all the modern first person shooters that came after it. Released as shareware in 1992 it launched the independent career of id Software that would result in DOOM and Quake. Though simplistic by today's standards, it still holds up as a fun maze game with the occasional Nazi to shoot.
 Developer:  id Software
 Release Date:  May 5, 1992
-Source Code Release Date:  August 1995"
+Source Code Release Date:  August 1995
+  DESC
   homepage "https://macsourceports.com/game/wolf3d"
 
   app "ECWolf.app"

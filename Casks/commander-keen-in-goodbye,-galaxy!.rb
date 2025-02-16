@@ -4,9 +4,11 @@ cask "commander-keen-in-goodbye,-galaxy!" do
 
   url "https://github.com/MacSourcePorts/MSPBuildSystem/releases/download/Commander-Genius_3.5.2/CGenius-3.5.2.dmg"
   name "Commander Keen in Goodbye, Galaxy!"
-  desc "Now going by id Software formally, Commander Keen in Goodbye, Galaxy! is a shareware sequel to the original game, consisting of two episodes. The third episode was spun off into a new game to fulfill a contractual obligation. The game features enhancements and new features such as parallax scrolling.Note that most digital retailers market someting called the Commander Keen Complete Pack which contains the first two games' content but not the Keen Dreams spinoff or the final episode Aliens Ate My Babysitter due to the surprisingly complicated publication history of the series. Commander Genius has incomplete support for Keen Dreams, but fully supports Aliens Ate My Babysitter, should you be able to find it somewhere.
+  desc <<~DESC
+Now going by id Software formally, Commander Keen in Goodbye, Galaxy! is a shareware sequel to the original game, consisting of two episodes. The third episode was spun off into a new game to fulfill a contractual obligation. The game features enhancements and new features such as parallax scrolling.Note that most digital retailers market someting called the Commander Keen Complete Pack which contains the first two games' content but not the Keen Dreams spinoff or the final episode Aliens Ate My Babysitter due to the surprisingly complicated publication history of the series. Commander Genius has incomplete support for Keen Dreams, but fully supports Aliens Ate My Babysitter, should you be able to find it somewhere.
 Developer:  id Software
-Release Date:  December 15, 1991"
+Release Date:  December 15, 1991
+  DESC
   homepage "https://macsourceports.com/game/ckeen2"
 
   app "CGenius.app"

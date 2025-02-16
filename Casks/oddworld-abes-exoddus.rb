@@ -4,9 +4,11 @@ cask "oddworld-abes-exoddus" do
 
   url "https://github.com/MacSourcePorts/alive_reversing/releases/download/RELIVE_1.0/relive-ae-1.0-ae.dmg"
   name "Oddworld: Abe's Exoddus"
-  desc "Following a year later, Oddworld: Abe's Exoddus continues the story of Abe as he once again tries to save himself and others from becoming consumer products, a bevarage in this case. This game is considered both a sequel as well as a spin-off of the original title.
+  desc <<~DESC
+Following a year later, Oddworld: Abe's Exoddus continues the story of Abe as he once again tries to save himself and others from becoming consumer products, a bevarage in this case. This game is considered both a sequel as well as a spin-off of the original title.
 Developer:  Oddworld Inhabitants
-Release Date:  November 17, 1998"
+Release Date:  November 17, 1998
+  DESC
   homepage "https://macsourceports.com/game/oddworld-ae"
 
   app "relive-ae.app"

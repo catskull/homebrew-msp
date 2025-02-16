@@ -131,8 +131,10 @@ cask_template = <<~CASK
 
     url "#{download_url}"
     name "#{app_name}"
-    desc "#{description.strip}"
-    homepage "https://macsourceports.com/game#{html_file.split('/game').last.split('.html').first}"
+    desc <<~DESC
+      #{description.strip}
+  DESC
+  homepage "https://macsourceports.com/game#{html_file.split('/game').last.split('.html').first}"
 
     app "#{extracted_app_name}.app"
 

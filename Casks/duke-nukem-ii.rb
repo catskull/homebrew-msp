@@ -4,9 +4,11 @@ cask "duke-nukem-ii" do
 
   url "https://github.com/MacSourcePorts/MSPBuildSystem/releases/download/RigelEngine_0.9.1/RigelEngine-0.9.1.dmg"
   name "Duke Nukem II"
-  desc "Long before he became the poster child for vaporware and even before the series made the leap to 3D, Duke Nukem was just an unassuming video game character aping 80's action hero clichés in a set of ambitious but uncomplicated side scrollers. Duke Nukem II brought the series to the world of VGA monitors and sound cards.As of this writing, it appears the only place to buy the game is Zoom Platform, an obscure digital vendor with what apears to be an exclusive license from Gearbox, the current rights holders.
+  desc <<~DESC
+Long before he became the poster child for vaporware and even before the series made the leap to 3D, Duke Nukem was just an unassuming video game character aping 80's action hero clichés in a set of ambitious but uncomplicated side scrollers. Duke Nukem II brought the series to the world of VGA monitors and sound cards.As of this writing, it appears the only place to buy the game is Zoom Platform, an obscure digital vendor with what apears to be an exclusive license from Gearbox, the current rights holders.
 Developer:  Apogee Software
-Release Date:  December 3, 1993"
+Release Date:  December 3, 1993
+  DESC
   homepage "https://macsourceports.com/game/duke2"
 
   app "RigelEngine.app"

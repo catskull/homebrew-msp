@@ -4,9 +4,11 @@ cask "indiana-jones-and-the-fate-of-atlantis" do
 
   url "https://aarongiles.com/dreamm/releases/dreamm-2.1.2-macos.dmg"
   name "Indiana Jones and the Fate of Atlantis"
-  desc "Indiana Jones and the Fate of Atlantis is a point-and-click adventure game that takes place in the world of Indiana Jones in an original story. You take on the role of Indiana Jones as he sets out to find the lost city of Atlantis before it falls into the wrong hands. Along the way, you must solve puzzles, interact with a variety of interesting characters, and explore exotic locations across the globe. The game features multiple paths and endings, adding to its replay value, and is known for its immersive storyline, engaging puzzles, and well-developed characters. It was the seventh game to use the SCUMM engine.
+  desc <<~DESC
+Indiana Jones and the Fate of Atlantis is a point-and-click adventure game that takes place in the world of Indiana Jones in an original story. You take on the role of Indiana Jones as he sets out to find the lost city of Atlantis before it falls into the wrong hands. Along the way, you must solve puzzles, interact with a variety of interesting characters, and explore exotic locations across the globe. The game features multiple paths and endings, adding to its replay value, and is known for its immersive storyline, engaging puzzles, and well-developed characters. It was the seventh game to use the SCUMM engine.
 Developer:  LucasArts
-Release Date:  June 1, 1992"
+Release Date:  June 1, 1992
+  DESC
   homepage "https://macsourceports.com/game/indyfateofatlantis"
 
   app "dreamm.app"

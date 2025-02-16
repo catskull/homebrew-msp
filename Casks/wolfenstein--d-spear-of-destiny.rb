@@ -4,10 +4,12 @@ cask "wolfenstein--d-spear-of-destiny" do
 
   url "https://maniacsvault.net/ecwolf/files/ecwolf/1.x/ecwolf-1.4.0.dmg"
   name "Wolfenstein 3-D: Spear of Destiny"
-  desc "Spear of Destiny is the retail sequel to the shareware Wolfenstein 3-D. Timeline-wise, it is a prequel that features B.J. Blazkowicz on a mission to recapture the titular Spear of Destiny from the Nazis. If you want more Wolfenstein 3-D, this has you covered.
+  desc <<~DESC
+Spear of Destiny is the retail sequel to the shareware Wolfenstein 3-D. Timeline-wise, it is a prequel that features B.J. Blazkowicz on a mission to recapture the titular Spear of Destiny from the Nazis. If you want more Wolfenstein 3-D, this has you covered.
 Developer:  id Software
 Release Date:  September 18, 1992
-Source Code Release Date:  August 1995"
+Source Code Release Date:  August 1995
+  DESC
   homepage "https://macsourceports.com/game/sod"
 
   app "ECWolf.app"

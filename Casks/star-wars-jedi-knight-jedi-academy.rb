@@ -4,10 +4,12 @@ cask "star-wars-jedi-knight-jedi-academy" do
 
   url "https://github.com/MacSourcePorts/OpenJK/releases/download/1.0/OpenJK-MP-1.0.dmg"
   name "Star Wars Jedi Knight: Jedi Academy"
-  desc "The fourth and most recent entry in the franchise that gave up on numbers, Star Wars Jedi Knight: Jedi Academy (aka Star Wars: Dark Forces IV: Jedi Knight III: Jedi Outcast II: Jedi Academy) continues to use id Tech 3, which powered Quake III: Arena. This gives the game a more consistent look compared to its the previous title. Although seemingly less of a sales force than its predecessor, it enjoys a multiplayer community that is still active today.
+  desc <<~DESC
+The fourth and most recent entry in the franchise that gave up on numbers, Star Wars Jedi Knight: Jedi Academy (aka Star Wars: Dark Forces IV: Jedi Knight III: Jedi Outcast II: Jedi Academy) continues to use id Tech 3, which powered Quake III: Arena. This gives the game a more consistent look compared to its the previous title. Although seemingly less of a sales force than its predecessor, it enjoys a multiplayer community that is still active today.
 Developer:  Raven Software
 Release Date:  September 16, 2003
-Source Code Release Date:  April 3, 2013"
+Source Code Release Date:  April 3, 2013
+  DESC
   homepage "https://macsourceports.com/game/swjkja"
 
   app "OpenJK-MP.app"

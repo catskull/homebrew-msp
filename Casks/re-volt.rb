@@ -4,9 +4,11 @@ cask "re-volt" do
 
   url "https://rvgl.org/downloads/rvgl_23.1030a1_macos.dmg"
   name "Re-Volt"
-  desc "Re-Volt is a cult classic and fan favorite racing game originally released for the PC and Dreamcast that puts the player behind the wheel of a radio controlled vehicle racing homemade courses in suburban settings.Although my aim is to host signed and notarized game bundles on Mac Source Ports, I have had so many requests for this game that once it reappeared on GOG I decided it was worth making an exception to the site's policy so that Apple Silicon gamers looking for a fun racing game would be able to find it.Because the app bundle is not notarized, on first run you may run into issues. The shortest answer is to right-click on the app bundle (RVGL.app) and select Open. The long answer is here.
+  desc <<~DESC
+Re-Volt is a cult classic and fan favorite racing game originally released for the PC and Dreamcast that puts the player behind the wheel of a radio controlled vehicle racing homemade courses in suburban settings.Although my aim is to host signed and notarized game bundles on Mac Source Ports, I have had so many requests for this game that once it reappeared on GOG I decided it was worth making an exception to the site's policy so that Apple Silicon gamers looking for a fun racing game would be able to find it.Because the app bundle is not notarized, on first run you may run into issues. The shortest answer is to right-click on the app bundle (RVGL.app) and select Open. The long answer is here.
 Developer:  Acclaim
-Release Date:  August 18, 1999"
+Release Date:  August 18, 1999
+  DESC
   homepage "https://macsourceports.com/game/revolt"
 
   app "RVGL.app"

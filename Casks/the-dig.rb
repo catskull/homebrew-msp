@@ -4,9 +4,11 @@ cask "the-dig" do
 
   url "https://aarongiles.com/dreamm/releases/dreamm-2.1.2-macos.dmg"
   name "The Dig"
-  desc "The Dig is a point-and-click adventure game that follows the story of a team of astronauts who travel to an asteroid to investigate a mysterious signal from an alien artifact. As they explore the artifact, they uncover a complex and ancient civilization, leading to a series of challenging puzzles and moral dilemmas. Another entry in the list of games I’ve yet to play but remember because of the cover art and title, the game is notable for being inspired by an idea originally created for Steven Spielberg's Amazing Stories series and it features immersive, atmospheric visuals, an engaging storyline, and memorable characters, including the stoic Commander Low, the hot-headed journalist Maggie, and the eccentric scientist Brink. It was the eleventh game to use the SCUMM engine.
+  desc <<~DESC
+The Dig is a point-and-click adventure game that follows the story of a team of astronauts who travel to an asteroid to investigate a mysterious signal from an alien artifact. As they explore the artifact, they uncover a complex and ancient civilization, leading to a series of challenging puzzles and moral dilemmas. Another entry in the list of games I’ve yet to play but remember because of the cover art and title, the game is notable for being inspired by an idea originally created for Steven Spielberg's Amazing Stories series and it features immersive, atmospheric visuals, an engaging storyline, and memorable characters, including the stoic Commander Low, the hot-headed journalist Maggie, and the eccentric scientist Brink. It was the eleventh game to use the SCUMM engine.
 Developer:  LucasArts
-Release Date:  November 30, 1995"
+Release Date:  November 30, 1995
+  DESC
   homepage "https://macsourceports.com/game/thedig"
 
   app "dreamm.app"

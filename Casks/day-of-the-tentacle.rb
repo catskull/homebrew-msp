@@ -4,9 +4,11 @@ cask "day-of-the-tentacle" do
 
   url "https://aarongiles.com/dreamm/releases/dreamm-2.1.2-macos.dmg"
   name "Day of the Tentacle"
-  desc "Day of the Tentacle is a point-and-click adventure game that takes place across three different time periods. You take on the roles of three characters, Bernard, Hoagie, and Laverne, who must work together to prevent an evil, sentient tentacle from taking over the world. The game features challenging puzzles, zany humor, and memorable characters, including a mad scientist, a talking toilet, and a founding father of the United States. It was the eighth game to use the SCUMM engine.NOTE: The source ports listed below need the data from the original game, but most modern digital retailers only sell the Remastered Edition, which does not work with these source ports.
+  desc <<~DESC
+Day of the Tentacle is a point-and-click adventure game that takes place across three different time periods. You take on the roles of three characters, Bernard, Hoagie, and Laverne, who must work together to prevent an evil, sentient tentacle from taking over the world. The game features challenging puzzles, zany humor, and memorable characters, including a mad scientist, a talking toilet, and a founding father of the United States. It was the eighth game to use the SCUMM engine.NOTE: The source ports listed below need the data from the original game, but most modern digital retailers only sell the Remastered Edition, which does not work with these source ports.
 Developer:  LucasArts
-Release Date:  June 25, 1993"
+Release Date:  June 25, 1993
+  DESC
   homepage "https://macsourceports.com/game/dott"
 
   app "dreamm.app"

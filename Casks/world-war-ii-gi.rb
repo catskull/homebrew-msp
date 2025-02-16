@@ -4,9 +4,11 @@ cask "world-war-ii-gi" do
 
   url "https://github.com/ZDoom/Raze/releases/download/1.10.2/raze-macos-1.10.2.zip"
   name "World War II GI"
-  desc "A year after NAM came out, GT Interactive released a sequel, also by Team TNT and also aimed at the budget market, but time time taking place in WWII. It's a similar deal to NAM in that it's an ambitious game from a skilled group of modders but the Build engine was ill suited for it. This would also be the last commercial Build engine game for two decades until Ion Fury.
+  desc <<~DESC
+A year after NAM came out, GT Interactive released a sequel, also by Team TNT and also aimed at the budget market, but time time taking place in WWII. It's a similar deal to NAM in that it's an ambitious game from a skilled group of modders but the Build engine was ill suited for it. This would also be the last commercial Build engine game for two decades until Ion Fury.
 Developer:  TNT Team
-Release Date:  March 15, 1999"
+Release Date:  March 15, 1999
+  DESC
   homepage "https://macsourceports.com/game/ww2gi"
 
   app "Raze.app"

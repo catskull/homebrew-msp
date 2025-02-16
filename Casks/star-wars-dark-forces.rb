@@ -4,9 +4,11 @@ cask "star-wars-dark-forces" do
 
   url "https://aarongiles.com/dreamm/releases/dreamm-2.1.2-macos.dmg"
   name "Star Wars: Dark Forces"
-  desc "The first entry in the series, Star Wars: Dark Forces is a first-person shooter game set in the Star Wars universe with an engine similar to DOOM. You take on the role of Kyle Katarn, a former Imperial officer turned Rebel Alliance mercenary, as he investigates a new Imperial weapon known as the Dark Trooper. The game features a variety of weapons, levels, and enemies, along with detailed graphics and sound effects that bring the Star Wars universe to life.
+  desc <<~DESC
+The first entry in the series, Star Wars: Dark Forces is a first-person shooter game set in the Star Wars universe with an engine similar to DOOM. You take on the role of Kyle Katarn, a former Imperial officer turned Rebel Alliance mercenary, as he investigates a new Imperial weapon known as the Dark Trooper. The game features a variety of weapons, levels, and enemies, along with detailed graphics and sound effects that bring the Star Wars universe to life.
 Developer:  LucasArts
-Release Date:  February 28, 1995"
+Release Date:  February 28, 1995
+  DESC
   homepage "https://macsourceports.com/game/swdf"
 
   app "dreamm.app"

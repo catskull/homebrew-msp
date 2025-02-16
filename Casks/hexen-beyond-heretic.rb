@@ -4,10 +4,12 @@ cask "hexen-beyond-heretic" do
 
   url "https://github.com/ZDoom/gzdoom/releases/download/g4.14.0/gzdoom-4-14-0-macos.zip"
   name "Hexen: Beyond Heretic"
-  desc "The sequel to Heretic, also running on the DOOM, Hexen: Beyond Heretic builds on Heretic's foundation by adding selectable classes and a hub structure.
+  desc <<~DESC
+The sequel to Heretic, also running on the DOOM, Hexen: Beyond Heretic builds on Heretic's foundation by adding selectable classes and a hub structure.
 Developer:  Raven Software
 Release Date:  October 30, 1995
-Source Code Release Date:  January 11, 1999"
+Source Code Release Date:  January 11, 1999
+  DESC
   homepage "https://macsourceports.com/game/hexen"
 
   app "GZDoom.app"

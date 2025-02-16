@@ -4,9 +4,11 @@ cask "grim-fandango" do
 
   url "https://aarongiles.com/dreamm/releases/dreamm-2.1.2-macos.dmg"
   name "Grim Fandango"
-  desc "Grim Fandango is a unique point-and-click adventure game set in the Land of the Dead, where souls journey after they pass on from the world of the living. You take on the role of Manny Calavera, a travel agent for the Department of Death, who must unravel a conspiracy involving corruption within the underworld. The game features a unique blend of film noir and Aztec mythology, along with a memorable cast of characters, including the femme fatale Meche Colomar and the demon driver Glottis. With its innovative art style, engaging storyline, and challenging puzzles, Grim Fandango is a masterpiece of the adventure game genre and a must-play for fans of the genre. It was the first game to use the GrimE engine.NOTE: The source ports listed below need the data from the original game, but most modern digital retailers only sell the Remastered Edition, which does not work with these source ports.
+  desc <<~DESC
+Grim Fandango is a unique point-and-click adventure game set in the Land of the Dead, where souls journey after they pass on from the world of the living. You take on the role of Manny Calavera, a travel agent for the Department of Death, who must unravel a conspiracy involving corruption within the underworld. The game features a unique blend of film noir and Aztec mythology, along with a memorable cast of characters, including the femme fatale Meche Colomar and the demon driver Glottis. With its innovative art style, engaging storyline, and challenging puzzles, Grim Fandango is a masterpiece of the adventure game genre and a must-play for fans of the genre. It was the first game to use the GrimE engine.NOTE: The source ports listed below need the data from the original game, but most modern digital retailers only sell the Remastered Edition, which does not work with these source ports.
 Developer:  LucasArts
-Release Date:  October 30, 1998"
+Release Date:  October 30, 1998
+  DESC
   homepage "https://macsourceports.com/game/grimfandango"
 
   app "dreamm.app"

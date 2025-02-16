@@ -4,9 +4,11 @@ cask "loom" do
 
   url "https://aarongiles.com/dreamm/releases/dreamm-2.1.2-macos.dmg"
   name "Loom"
-  desc "Loom is a point-and-click adventure game that takes place in a world where music is magic. You take on the role of Bobbin Threadbare, a young weaver who must use his musical skills to save his world from destruction. The game's unique mechanic involves learning and playing musical "drafts" to solve puzzles and progress through the story. With its enchanting storyline, captivating music, and innovative gameplay, Loom remains a beloved title in the history of adventure games. It’s also on my short list of games I have yet to play and yet stick in my mind because of the intriguing title and cover art from an era when Lucasfilm Games did more than movie tie-ins. It was the fourth game to use the SCUMM engine.
+  desc <<~DESC
+Loom is a point-and-click adventure game that takes place in a world where music is magic. You take on the role of Bobbin Threadbare, a young weaver who must use his musical skills to save his world from destruction. The game's unique mechanic involves learning and playing musical "drafts" to solve puzzles and progress through the story. With its enchanting storyline, captivating music, and innovative gameplay, Loom remains a beloved title in the history of adventure games. It’s also on my short list of games I have yet to play and yet stick in my mind because of the intriguing title and cover art from an era when Lucasfilm Games did more than movie tie-ins. It was the fourth game to use the SCUMM engine.
 Developer:  Lucasfilm Games
-Release Date:  January 1990"
+Release Date:  January 1990
+  DESC
   homepage "https://macsourceports.com/game/loom"
 
   app "dreamm.app"

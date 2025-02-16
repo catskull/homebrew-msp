@@ -4,10 +4,12 @@ cask "quake" do
 
   url "https://github.com/MacSourcePorts/MSPBuildSystem/releases/download/vkQuake-1.32.0/vkQuake-1.32.0.dmg"
   name "Quake"
-  desc "Quake is a first-person shooter, the first in the Quake series. The vkQuake port was derived from the QuakeSpasm Spiked port and uses Vulkan on macOS by way of MoltenVK.
+  desc <<~DESC
+Quake is a first-person shooter, the first in the Quake series. The vkQuake port was derived from the QuakeSpasm Spiked port and uses Vulkan on macOS by way of MoltenVK.
 Developer:  id Software
 Release Date:  June 22, 1996
-Source Code Release Date:  December 21, 1999"
+Source Code Release Date:  December 21, 1999
+  DESC
   homepage "https://macsourceports.com/game/quake"
 
   app "vkQuake.app"

@@ -4,9 +4,11 @@ cask "heroes-of-might-and-magic-ii" do
 
   url "https://github.com/MacSourcePorts/MSPBuildSystem/releases/download/fheroes2_1.1.5/fheroes2-1.1.5.dmg"
   name "Heroes of Might and Magic II"
-  desc "Heroes of Might and Magic II is a 4X turn-based strategy game. Ranked once by PC Gamer as the sixth-best game of all time it features resource building, new factions, skills, and a single-player campaign.
+  desc <<~DESC
+Heroes of Might and Magic II is a 4X turn-based strategy game. Ranked once by PC Gamer as the sixth-best game of all time it features resource building, new factions, skills, and a single-player campaign.
 Developer:  New World Computing
-Release Date:  October 1, 1996"
+Release Date:  October 1, 1996
+  DESC
   homepage "https://macsourceports.com/game/homm2"
 
   app "fheroes2.app"

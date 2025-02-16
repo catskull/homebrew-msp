@@ -6,10 +6,12 @@ cask "the-battle-for-wesnoth" do
 
   url "https://sourceforge.net/projects/wesnoth/files/wesnoth-1.18/wesnoth-1.18.3/Wesnoth_1.18.3.dmg/download"
   name "The Battle for Wesnoth"
-  desc "The Battle for Wesnoth is a free and open source turn-based game in a high fantasy setting. Taking place on a hex map, the player defeats enemies and captures villages for experience. The game features single and multiplayer modes and a complete soundtrack.As the game is freeware, no other game data is necessary, just download and play.
+  desc <<~DESC
+The Battle for Wesnoth is a free and open source turn-based game in a high fantasy setting. Taking place on a hex map, the player defeats enemies and captures villages for experience. The game features single and multiplayer modes and a complete soundtrack.As the game is freeware, no other game data is necessary, just download and play.
 Developer:  David White
 Release Date:  October 2, 2005
-Source Code Release Date:  October 2, 2005"
+Source Code Release Date:  October 2, 2005
+  DESC
   homepage "https://macsourceports.com/game/wesnoth"
 
   app "UNKNOWN_APP.app"

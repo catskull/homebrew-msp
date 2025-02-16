@@ -4,10 +4,12 @@ cask "ion-fury-aftershock" do
 
   url "https://github.com/MacSourcePorts/eduke32/releases/download/2.0/EDuke32-2.0.dmg"
   name "Ion Fury: Aftershock"
-  desc "Ion Fury: Aftershock is the expasion pack for Ion Fury. If you liked the first game you'll like the expansion pack because now there's more of it. Similar to the original game, the developer is not distributing Mac builds so our build is the only way to play it on the Mac short of rolling your own.Thanks to a tip from the community, the issues building the EDuke32 source port have been resolved and so we are able to give you the latest version, capable of playing the expansion pack.NOTE: the new version of EDuke32 may be incompatible with earlier saved games. If you need to revert to the old version it is still available here. Also you may need to select an "8-bpp" video mode on Apple Silicon Macs to achieve acceptable performance.
+  desc <<~DESC
+Ion Fury: Aftershock is the expasion pack for Ion Fury. If you liked the first game you'll like the expansion pack because now there's more of it. Similar to the original game, the developer is not distributing Mac builds so our build is the only way to play it on the Mac short of rolling your own.Thanks to a tip from the community, the issues building the EDuke32 source port have been resolved and so we are able to give you the latest version, capable of playing the expansion pack.NOTE: the new version of EDuke32 may be incompatible with earlier saved games. If you need to revert to the old version it is still available here. Also you may need to select an "8-bpp" video mode on Apple Silicon Macs to achieve acceptable performance.
 Developer:  Voidpoint
 Release Date:  October 2, 2023
-Source Code Release Date:  October 2, 2023"
+Source Code Release Date:  October 2, 2023
+  DESC
   homepage "https://macsourceports.com/game/ionfuryaftershock"
 
   app "EDuke32.app"

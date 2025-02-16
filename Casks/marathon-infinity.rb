@@ -4,10 +4,12 @@ cask "marathon-infinity" do
 
   url "https://github.com/Aleph-One-Marathon/alephone/releases/download/release-20240822/MarathonInfinity-20240822-Mac.dmg"
   name "Marathon Infinity"
-  desc "Marathon Infinity finishes out the Marathon trilogy and, curiously, returns to being a Macintosh exclusive. Like its predecessors it includes both single and multiplayer. According to the Aleph One site, this entry is the most popular of the three today with regards to online multiplayer.Bungie released all three Marathon titles as freeware in 2005 so the downloads from the Aleph One project include the entire game. No need to dig out your old discs here.
+  desc <<~DESC
+Marathon Infinity finishes out the Marathon trilogy and, curiously, returns to being a Macintosh exclusive. Like its predecessors it includes both single and multiplayer. According to the Aleph One site, this entry is the most popular of the three today with regards to online multiplayer.Bungie released all three Marathon titles as freeware in 2005 so the downloads from the Aleph One project include the entire game. No need to dig out your old discs here.
 Developer:  Bungie
 Release Date:  October 15, 1996
-Source Code Release Date:  January 2000"
+Source Code Release Date:  January 2000
+  DESC
   homepage "https://macsourceports.com/game/marathoninfinity"
 
   app "Classic Marathon Infinity.app"

@@ -4,10 +4,12 @@ cask "quake-ii" do
 
   url "https://github.com/MacSourcePorts/MSPBuildSystem/releases/download/yquake2_8.41/yquake2-8.41.dmg"
   name "Quake II"
-  desc "Quake II is a first-person shooter, the second in the Quake series. Yamagi Quake2 is the most mature and advanced port actively being maintained.
+  desc <<~DESC
+Quake II is a first-person shooter, the second in the Quake series. Yamagi Quake2 is the most mature and advanced port actively being maintained.
 Developer:  id Software
 Release Date:  December 9, 1997
-Source Code Release Date:  December 22, 2001"
+Source Code Release Date:  December 22, 2001
+  DESC
   homepage "https://macsourceports.com/game/quake2"
 
   app "yquake2.app"

@@ -4,9 +4,11 @@ cask "might-and-magic-vii-for-blood-and-honor" do
 
   url "https://github.com/MacSourcePorts/OpenEnroth/releases/download/OpenEnroth_0.1_2024-01-18/OpenEnroth-0.1.dmg"
   name "Might and Magic VII: For Blood and Honor"
-  desc "There's lots of game series whose entries reflect the evolution of gaming technology, but not many of them can lay claim to staring the series on the Apple II and Commodore 64.Might and Magic VII: For Blood and Honor is the seventh entry in the mainlne Might and Magic series, which runs parallel to the Hereos of Might and Magic series. Released in 1999 (the Best Year for Gaming, Ever) it is the second game in the series to use a 3D engine. The OpenEnroth project aims to implement Might and Magic VI, VII and VIII, but at the moment only VII is playable.
+  desc <<~DESC
+There's lots of game series whose entries reflect the evolution of gaming technology, but not many of them can lay claim to staring the series on the Apple II and Commodore 64.Might and Magic VII: For Blood and Honor is the seventh entry in the mainlne Might and Magic series, which runs parallel to the Hereos of Might and Magic series. Released in 1999 (the Best Year for Gaming, Ever) it is the second game in the series to use a 3D engine. The OpenEnroth project aims to implement Might and Magic VI, VII and VIII, but at the moment only VII is playable.
 Developer:  New World Computing
-Release Date:  June 8, 1999"
+Release Date:  June 8, 1999
+  DESC
   homepage "https://macsourceports.com/game/mightandmagic7"
 
   app "OpenEnroth.app"

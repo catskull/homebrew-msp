@@ -4,10 +4,12 @@ cask "duke-nukem-3d" do
 
   url "https://github.com/ZDoom/Raze/releases/download/1.10.2/raze-macos-1.10.2.zip"
   name "Duke Nukem 3D"
-  desc "Duke Nukem 3D was the third entry in the Duke Nukem franchise, with a lead character acting as a parody of action movie tropes. Whereas the first two entries were side scrollers, Duke Nukem 3D was a first person shooter in a modern urban setting featuring environment interaction not commonly seen at the time. Although it was released right before the realization of full 3D environments, it gained a devout following that continues to this day. Hail to the King, baby!
+  desc <<~DESC
+Duke Nukem 3D was the third entry in the Duke Nukem franchise, with a lead character acting as a parody of action movie tropes. Whereas the first two entries were side scrollers, Duke Nukem 3D was a first person shooter in a modern urban setting featuring environment interaction not commonly seen at the time. Although it was released right before the realization of full 3D environments, it gained a devout following that continues to this day. Hail to the King, baby!
 Developer:  3D Realms
 Release Date:  January 29, 1996
-Source Code Release Date:  April 1, 2003"
+Source Code Release Date:  April 1, 2003
+  DESC
   homepage "https://macsourceports.com/game/duke3d"
 
   app "Raze.app"

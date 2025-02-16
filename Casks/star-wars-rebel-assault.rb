@@ -4,9 +4,11 @@ cask "star-wars-rebel-assault" do
 
   url "https://aarongiles.com/dreamm/releases/dreamm-2.1.2-macos.dmg"
   name "Star Wars: Rebel Assault"
-  desc "Also known to people my age as that game that came with your new CD-ROM drive, Star Wars: Rebel Assault is a FMV-based rail shooter game set in the Star Wars universe. You take on the role of a new pilot recruit for the Rebel Alliance, tasked with completing a series of missions to stop the Empire's plans for galactic domination. The game features footage from the original Star Wars trilogy, along with a memorable score, intense dogfights, and thrilling set pieces, including the iconic Death Star trench run.
+  desc <<~DESC
+Also known to people my age as that game that came with your new CD-ROM drive, Star Wars: Rebel Assault is a FMV-based rail shooter game set in the Star Wars universe. You take on the role of a new pilot recruit for the Rebel Alliance, tasked with completing a series of missions to stop the Empire's plans for galactic domination. The game features footage from the original Star Wars trilogy, along with a memorable score, intense dogfights, and thrilling set pieces, including the iconic Death Star trench run.
 Developer:  LucasArts
-Release Date:  November 1993"
+Release Date:  November 1993
+  DESC
   homepage "https://macsourceports.com/game/swrebelassault"
 
   app "dreamm.app"

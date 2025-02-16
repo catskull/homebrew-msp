@@ -4,9 +4,11 @@ cask "dune-2000" do
 
   url "https://github.com/OpenRA/OpenRA/releases/download/release-20231010/OpenRA-release-20231010.dmg"
   name "Dune 2000"
-  desc "A partial remake of Dune II, itself considered the earliest example of the mold that later RTS games would follow, Dune 2000 was initially released for PCs in 1998 and the PlayStation in 1999.Dune 2000 is not currently available via any digital distribution sales channels but OpenRA can download a subset of data to get going. Installing the full game's data from a disc is also supported.
+  desc <<~DESC
+A partial remake of Dune II, itself considered the earliest example of the mold that later RTS games would follow, Dune 2000 was initially released for PCs in 1998 and the PlayStation in 1999.Dune 2000 is not currently available via any digital distribution sales channels but OpenRA can download a subset of data to get going. Installing the full game's data from a disc is also supported.
 Developer:  Intelligent Games
-Release Date:  September 4, 1998"
+Release Date:  September 4, 1998
+  DESC
   homepage "https://macsourceports.com/game/dune2000"
 
   app "OpenRA - Dune 2000.app"

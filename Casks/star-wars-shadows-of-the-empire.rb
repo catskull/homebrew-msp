@@ -4,9 +4,11 @@ cask "star-wars-shadows-of-the-empire" do
 
   url "https://aarongiles.com/dreamm/releases/dreamm-2.1.2-macos.dmg"
   name "Star Wars: Shadows of the Empire"
-  desc "Released as part of a multimedia project encompassing books, comic books and toys, Star Wars: Shadows of the Empire launched in 1996 for the Nintendo 64. It featured multiple different modes of gameplay including an impressive opening mission flying on Hoth, third person combat and vehicular levels.
+  desc <<~DESC
+Released as part of a multimedia project encompassing books, comic books and toys, Star Wars: Shadows of the Empire launched in 1996 for the Nintendo 64. It featured multiple different modes of gameplay including an impressive opening mission flying on Hoth, third person combat and vehicular levels.
 Developer:  Lucasfilm Games
-Release Date:  December 3, 1996"
+Release Date:  December 3, 1996
+  DESC
   homepage "https://macsourceports.com/game/swsote"
 
   app "dreamm.app"

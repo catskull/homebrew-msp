@@ -4,9 +4,11 @@ cask "the-settlers-ii" do
 
   url "https://github.com/MacSourcePorts/s25client/releases/download/s25client-0.9.5/s25client-0.9.5.dmg"
   name "The Settlers II"
-  desc "The Settlers II is a city building game with real time strategy elements. The source port project Return to the Roots follows the pattern of taking a ridiculously hardcore PC game from the 90's and reverse engineering it for modern machines.Note that it needs the the files from the original The Settlers II or The Settlers II: Gold Edition, not the 2006 remake The Settlers II (10th Anniversary).Also note that the Return to the Roots project does not yet support the game's campaign mode but you can fire up an AI match or a multiplayer game. The project is still in active development so hopefully they'll add that feature soon.
+  desc <<~DESC
+The Settlers II is a city building game with real time strategy elements. The source port project Return to the Roots follows the pattern of taking a ridiculously hardcore PC game from the 90's and reverse engineering it for modern machines.Note that it needs the the files from the original The Settlers II or The Settlers II: Gold Edition, not the 2006 remake The Settlers II (10th Anniversary).Also note that the Return to the Roots project does not yet support the game's campaign mode but you can fire up an AI match or a multiplayer game. The project is still in active development so hopefully they'll add that feature soon.
 Developer:  Blue Byte Software
-Release Date:  April 17, 1996"
+Release Date:  April 17, 1996
+  DESC
   homepage "https://macsourceports.com/game/settlers2"
 
   app "s25client.app"

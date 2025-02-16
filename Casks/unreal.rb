@@ -4,9 +4,11 @@ cask "unreal" do
 
   url "https://github.com/OldUnreal/Unreal-testing/releases/download/v227k/OldUnreal-UnrealPatch-227k.dmg"
   name "Unreal"
-  desc "Also known as that game that convinced you to buy a Voodoo card, Unreal was released in 1998 after a lengthy development cycle. Although the name Unreal is primarily known today as a game engine licensing powerhouse, the original entry in the series is more than a tech demo, it's a fasinating glimpse in to what it was like to try and make a polygonal FPS game before most of the rules were well known. It's also a perfect example of a game where what you remember is much different than what you play today.The OldUnreal team, responsible for bringing us the Mac port of Unreal Tournament have received permission from Epic to also release a build of the original Unreal for the Mac. Although the original game was available for classic Mac OS, this is the first Mac port of it in... nevermind how long it's been.Note that we are labeling this an Early Access release since the OldUnreal team is labeling this build a pre-release. The original renderer has been replaced with a new Metal-based renderer and some glitches are to be expected, but the game is definitely playable.
+  desc <<~DESC
+Also known as that game that convinced you to buy a Voodoo card, Unreal was released in 1998 after a lengthy development cycle. Although the name Unreal is primarily known today as a game engine licensing powerhouse, the original entry in the series is more than a tech demo, it's a fasinating glimpse in to what it was like to try and make a polygonal FPS game before most of the rules were well known. It's also a perfect example of a game where what you remember is much different than what you play today.The OldUnreal team, responsible for bringing us the Mac port of Unreal Tournament have received permission from Epic to also release a build of the original Unreal for the Mac. Although the original game was available for classic Mac OS, this is the first Mac port of it in... nevermind how long it's been.Note that we are labeling this an Early Access release since the OldUnreal team is labeling this build a pre-release. The original renderer has been replaced with a new Metal-based renderer and some glitches are to be expected, but the game is definitely playable.
 Developer:  Epic Games
-Release Date:  May 22, 1998"
+Release Date:  May 22, 1998
+  DESC
   homepage "https://macsourceports.com/game/unreal"
 
   app "Unreal.app"

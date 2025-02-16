@@ -4,10 +4,12 @@ cask "final-doom" do
 
   url "https://github.com/ZDoom/gzdoom/releases/download/g4.14.0/gzdoom-4-14-0-macos.zip"
   name "Final DOOM"
-  desc "Final DOOM was a retail product which contained two 32-level campaigns, TNT: Evilution and The Plutonia Experiment. It used the same weapon and feature set as DOOM II and the episodes were contracted out from the DOOM level editing community.
+  desc <<~DESC
+Final DOOM was a retail product which contained two 32-level campaigns, TNT: Evilution and The Plutonia Experiment. It used the same weapon and feature set as DOOM II and the episodes were contracted out from the DOOM level editing community.
 Developer:  TeamTNT
 Release Date:  June 17, 1996
-Source Code Release Date:  December 23, 1997"
+Source Code Release Date:  December 23, 1997
+  DESC
   homepage "https://macsourceports.com/game/finaldoom"
 
   app "GZDoom.app"

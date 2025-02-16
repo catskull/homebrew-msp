@@ -4,9 +4,11 @@ cask "star-wars-jedi-knight-dark-forces-ii" do
 
   url "https://github.com/MacSourcePorts/MSPBuildSystem/releases/download/OpenJKDF2_0.9.1/OpenJKDF2-0.9.1.dmg"
   name "Star Wars Jedi Knight: Dark Forces II"
-  desc "The second entry in the franchise, Star Wars Jedi Knight: Dark Forces II (aka Star Wars: Dark Forces II: Jedi Knight) evolved with the times. Whereas the first game was a sprite-based FPS similar to DOOM and Duke Nukem 3D, this game was a polygonal affair, contemporary to Quake.
+  desc <<~DESC
+The second entry in the franchise, Star Wars Jedi Knight: Dark Forces II (aka Star Wars: Dark Forces II: Jedi Knight) evolved with the times. Whereas the first game was a sprite-based FPS similar to DOOM and Duke Nukem 3D, this game was a polygonal affair, contemporary to Quake.
 Developer:  LucasArts
-Release Date:  October 10, 1997"
+Release Date:  October 10, 1997
+  DESC
   homepage "https://macsourceports.com/game/swjkdf2"
 
   app "OpenJKDF2.app"

@@ -4,10 +4,12 @@ cask "maelstrom" do
 
   url "https://github.com/MacSourcePorts/Maelstrom/releases/download/Maelstrom-3.07_2023-01-22/Maelstrom-3.07.dmg"
   name "Maelstrom"
-  desc "Released as shareware for Mac OS 8 at a time when high resolution games on the Mac were rare, Maelstrom holds the record for the most people who asked me to port it over. Sam Lantinga has been maintaining an SDL port for ages now, even as a notarized app, but just for fun I got it running on Apple Silicon as a Universal 2 app so that it can add one more architecture shift to its history. The Macintosh Toolbox styled dialog box for the settings is a nice touch.
+  desc <<~DESC
+Released as shareware for Mac OS 8 at a time when high resolution games on the Mac were rare, Maelstrom holds the record for the most people who asked me to port it over. Sam Lantinga has been maintaining an SDL port for ages now, even as a notarized app, but just for fun I got it running on Apple Silicon as a Universal 2 app so that it can add one more architecture shift to its history. The Macintosh Toolbox styled dialog box for the settings is a nice touch.
 Developer:  Ambrosia Software
 Release Date:  1992
-Source Code Release Date:  1999"
+Source Code Release Date:  1999
+  DESC
   homepage "https://macsourceports.com/game/maelstrom"
 
   app "Maelstrom.app"

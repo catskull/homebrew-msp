@@ -4,9 +4,11 @@ cask "x-com-ufo-defense" do
 
   url "https://github.com/MacSourcePorts/OpenXcom/releases/download/v1.0/OpenXcom-1.0.dmg"
   name "X-COM: UFO Defense"
-  desc "X-COM: UFO Defense (released as UFO: Enemy Unknown in European territories) is a turn-based game blending elements of science fiction, strategy, and management simulation. The game enjoys a legendary status amongst 1990's gamers and garnered multiple sequels and a recent series of rebooted games.NOTE: If you have the data from both X-COM: UFO Defense/UFO: Enemy Unknown and X-COM: Terror from the Deep, you can use the "Mods" menu in the game to switch between the two.
+  desc <<~DESC
+X-COM: UFO Defense (released as UFO: Enemy Unknown in European territories) is a turn-based game blending elements of science fiction, strategy, and management simulation. The game enjoys a legendary status amongst 1990's gamers and garnered multiple sequels and a recent series of rebooted games.NOTE: If you have the data from both X-COM: UFO Defense/UFO: Enemy Unknown and X-COM: Terror from the Deep, you can use the "Mods" menu in the game to switch between the two.
 Developer:  Mythos Games
-Release Date:  March 1, 1994"
+Release Date:  March 1, 1994
+  DESC
   homepage "https://macsourceports.com/game/xcomufo"
 
   app "OpenXcom.app"

@@ -4,10 +4,12 @@ cask "descent-ii" do
 
   url "https://github.com/MacSourcePorts/MSPBuildSystem/releases/download/DXX-Rebirth_0.60/D2X-Rebirth-0.6.0.dmg"
   name "Descent II"
-  desc "Released during the stretch in the 90's when it wasn't uncommon to release a game sequel just a year later that was simultaneously more of the same and yet considerably more ambitious, Descent II is exactly as advertised - shipping on CD-ROM with an impressive for the time series of video cutscenes it essentially improves on everything about the original.NOTE: The DXX-Rebirth project builds into separate executables for Descent and Descent II. To play both games you will need to download both apps.
+  desc <<~DESC
+Released during the stretch in the 90's when it wasn't uncommon to release a game sequel just a year later that was simultaneously more of the same and yet considerably more ambitious, Descent II is exactly as advertised - shipping on CD-ROM with an impressive for the time series of video cutscenes it essentially improves on everything about the original.NOTE: The DXX-Rebirth project builds into separate executables for Descent and Descent II. To play both games you will need to download both apps.
 Developer:  Parallax Software
 Release Date:  March 13, 1996
-Source Code Release Date:  January 12, 1998"
+Source Code Release Date:  January 12, 1998
+  DESC
   homepage "https://macsourceports.com/game/descent2"
 
   app "D2X-Rebirth.app"

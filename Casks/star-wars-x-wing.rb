@@ -4,9 +4,11 @@ cask "star-wars-x-wing" do
 
   url "https://aarongiles.com/dreamm/releases/dreamm-2.1.2-macos.dmg"
   name "Star Wars: X-Wing"
-  desc "Star Wars: X-Wing is a space simulation game that puts you in the cockpit of an X-Wing fighter as they participate in the galactic conflict between the Rebel Alliance and the Empire. You must complete a series of missions that involve engaging in intense dogfights, escorting ships, and disabling enemy bases. The game features a realistic physics engine, a variety of weapons and ship upgrades, and detailed graphics and sound effects that immerse players in the Star Wars universe. With its challenging gameplay, charming user interface, rich storyline, and innovative features, Star Wars: X-Wing is a true classic of the space simulation genre.
+  desc <<~DESC
+Star Wars: X-Wing is a space simulation game that puts you in the cockpit of an X-Wing fighter as they participate in the galactic conflict between the Rebel Alliance and the Empire. You must complete a series of missions that involve engaging in intense dogfights, escorting ships, and disabling enemy bases. The game features a realistic physics engine, a variety of weapons and ship upgrades, and detailed graphics and sound effects that immerse players in the Star Wars universe. With its challenging gameplay, charming user interface, rich storyline, and innovative features, Star Wars: X-Wing is a true classic of the space simulation genre.
 Developer:  LucasArts
-Release Date:  January 2, 1994"
+Release Date:  January 2, 1994
+  DESC
   homepage "https://macsourceports.com/game/swxwing"
 
   app "dreamm.app"

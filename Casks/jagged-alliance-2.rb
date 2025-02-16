@@ -4,9 +4,11 @@ cask "jagged-alliance-2" do
 
   url "https://github.com/MacSourcePorts/MSPBuildSystem/releases/download/JA2-Stracciatella-0.21.0_Rebuild/ja2-stracciatella-0.21.0.dmg"
   name "Jagged Alliance 2"
-  desc "Jagged Alliance 2 is a cult classic tactical RPG from Canada with a devout following. In it, you play as the leader of a group of rebels seeking to defeat the tyrannical ruler of a Latin American country, hiring mercenaries in order to achieve objectives and recapture cities.The JA2-Stracciatella project offers an Intel Mac build but we've added an Apple Silicon build and hopefully can expand that to Universal 2 at some point.
+  desc <<~DESC
+Jagged Alliance 2 is a cult classic tactical RPG from Canada with a devout following. In it, you play as the leader of a group of rebels seeking to defeat the tyrannical ruler of a Latin American country, hiring mercenaries in order to achieve objectives and recapture cities.The JA2-Stracciatella project offers an Intel Mac build but we've added an Apple Silicon build and hopefully can expand that to Universal 2 at some point.
 Developer:  Sir-Tech Canada
-Release Date:  July 23, 1999"
+Release Date:  July 23, 1999
+  DESC
   homepage "https://macsourceports.com/game/jaggedalliance2"
 
   app "ja2-stracciatella.app"

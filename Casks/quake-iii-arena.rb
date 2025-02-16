@@ -4,10 +4,12 @@ cask "quake-iii-arena" do
 
   url "https://github.com/MacSourcePorts/MSPBuildSystem/releases/download/ioq3_1.36_2024-10-12/ioquake3-1.36.dmg"
   name "Quake III: Arena"
-  desc "Quake III Arena is a first-person shooter, the first in the Quake series to focus on multiplayer. The ioquake3 source port has been maintained since the original source code release in 2005, featuring a Universal 2 app that supports Intel 64-bit and Apple Silicon as well as a Universal 1 app that can support Intel and PowerPC Macs going back to Mac OS X 10.6
+  desc <<~DESC
+Quake III Arena is a first-person shooter, the first in the Quake series to focus on multiplayer. The ioquake3 source port has been maintained since the original source code release in 2005, featuring a Universal 2 app that supports Intel 64-bit and Apple Silicon as well as a Universal 1 app that can support Intel and PowerPC Macs going back to Mac OS X 10.6
 Developer:  id Software
 Release Date:  December 2, 1999
-Source Code Release Date:  August 9, 2005"
+Source Code Release Date:  August 9, 2005
+  DESC
   homepage "https://macsourceports.com/game/quake3arena"
 
   app "ioquake3.app"

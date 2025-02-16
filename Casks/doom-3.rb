@@ -4,10 +4,12 @@ cask "doom-3" do
 
   url "https://github.com/MacSourcePorts/MSPBuildSystem/releases/download/dhewm3_1.5.4/dhewm3-1.5.4.dmg"
   name "DOOM 3"
-  desc "DOOM 3 was the third game in the DOOM series, released in 2004. Support for the expansion pack Resurrection of Evil is also included.NOTE: Most retailers such as Steam and GOG are now selling DOOM 3 and DOOM 3: BFG Edition as a package together under the name DOOM 3 so buying that will get you both games.
+  desc <<~DESC
+DOOM 3 was the third game in the DOOM series, released in 2004. Support for the expansion pack Resurrection of Evil is also included.NOTE: Most retailers such as Steam and GOG are now selling DOOM 3 and DOOM 3: BFG Edition as a package together under the name DOOM 3 so buying that will get you both games.
 Developer:  id Software
 Release Date:  August 3, 2004
-Source Code Release Date:  November 22, 2011"
+Source Code Release Date:  November 22, 2011
+  DESC
   homepage "https://macsourceports.com/game/doom3"
 
   app "dhewm3.app"

@@ -4,9 +4,11 @@ cask "full-throttle" do
 
   url "https://aarongiles.com/dreamm/releases/dreamm-2.1.2-macos.dmg"
   name "Full Throttle"
-  desc "Full Throttle is a point-and-click adventure game that follows the story of Ben Throttle, the leader of a biker gang known as the Polecats. When a rival gang frames Ben for murder, he must clear his name and uncover a larger conspiracy involving the corrupt corporation, Corley Motors. The game features a memorable cast of characters, including the feisty mechanic, Maureen, and the villainous Adrian Ripburger, as well as intense action sequences, including high-speed motorcycle chases. It was the tenth game to use the SCUMM engine.NOTE: The source ports listed below need the data from the original game, but most modern digital retailers only sell the Remastered Edition, which does not work with these source ports.
+  desc <<~DESC
+Full Throttle is a point-and-click adventure game that follows the story of Ben Throttle, the leader of a biker gang known as the Polecats. When a rival gang frames Ben for murder, he must clear his name and uncover a larger conspiracy involving the corrupt corporation, Corley Motors. The game features a memorable cast of characters, including the feisty mechanic, Maureen, and the villainous Adrian Ripburger, as well as intense action sequences, including high-speed motorcycle chases. It was the tenth game to use the SCUMM engine.NOTE: The source ports listed below need the data from the original game, but most modern digital retailers only sell the Remastered Edition, which does not work with these source ports.
 Developer:  LucasArts
-Release Date:  April 30, 1995"
+Release Date:  April 30, 1995
+  DESC
   homepage "https://macsourceports.com/game/fullthrottle"
 
   app "dreamm.app"

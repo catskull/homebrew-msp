@@ -4,9 +4,11 @@ cask "carmageddon" do
 
   url "https://github.com/MacSourcePorts/MSPBuildSystem/releases/download/dethrace_0.8.0/dethrace-0.8.0.dmg"
   name "Carmageddon"
-  desc "An example of controversy for controversy's sake, Carmageddon basically took what people wanted to do in other racing games - crash into other cars and run over pedestrians - and turned it into the primary gameplay loop. They took the macabre joke about getting points for hitting people in your car and made it a gameplay mechanic. The game was successful both from a critical and commercial perspective, as well as its goal as a controversy magnet.The dethrace project is a source port where in lieu of source code they're reverse engineering it, and according to their Twitter account they're approximately 70% of the way there. The game is very playable but may crash in some places, so I'm introducing a new tag: Early Access. This probably could use a better name but I'm using it to convey the notion that the project doesn't consider itself completely finished (though there are reports of people making it through the entire game), but it's still pretty awesome so I figured if nothing else it's worth putting up a quick build.
+  desc <<~DESC
+An example of controversy for controversy's sake, Carmageddon basically took what people wanted to do in other racing games - crash into other cars and run over pedestrians - and turned it into the primary gameplay loop. They took the macabre joke about getting points for hitting people in your car and made it a gameplay mechanic. The game was successful both from a critical and commercial perspective, as well as its goal as a controversy magnet.The dethrace project is a source port where in lieu of source code they're reverse engineering it, and according to their Twitter account they're approximately 70% of the way there. The game is very playable but may crash in some places, so I'm introducing a new tag: Early Access. This probably could use a better name but I'm using it to convey the notion that the project doesn't consider itself completely finished (though there are reports of people making it through the entire game), but it's still pretty awesome so I figured if nothing else it's worth putting up a quick build.
 Developer:  Stainless Games
-Release Date:  June 13, 1997"
+Release Date:  June 13, 1997
+  DESC
   homepage "https://macsourceports.com/game/carmageddon"
 
   app "dethrace.app"

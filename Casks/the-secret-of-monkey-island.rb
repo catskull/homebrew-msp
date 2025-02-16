@@ -4,9 +4,11 @@ cask "the-secret-of-monkey-island" do
 
   url "https://aarongiles.com/dreamm/releases/dreamm-2.1.2-macos.dmg"
   name "The Secret of Monkey Island"
-  desc "The Secret of Monkey Island is a legendary point-and-click adventure game that tells the story of Guybrush Threepwood, a young man who dreams of becoming a pirate. You must guide Guybrush through a series of hilarious and challenging quests on the mysterious Monkey Island, where he must rescue his love interest and defeat the evil pirate LeChuck. With its witty humor, memorable characters, and clever puzzles, The Secret of Monkey Island is a true classic of the adventure game genre that has stood the test of time and it kicked off the Monkey Island franchise, whose entries still appear to this day. It was the fifth game to use the SCUMM engine.NOTE: The source ports listed below need the data from the original game, but most modern digital retailers only sell the Special Edition, which does not work with these source ports.
+  desc <<~DESC
+The Secret of Monkey Island is a legendary point-and-click adventure game that tells the story of Guybrush Threepwood, a young man who dreams of becoming a pirate. You must guide Guybrush through a series of hilarious and challenging quests on the mysterious Monkey Island, where he must rescue his love interest and defeat the evil pirate LeChuck. With its witty humor, memorable characters, and clever puzzles, The Secret of Monkey Island is a true classic of the adventure game genre that has stood the test of time and it kicked off the Monkey Island franchise, whose entries still appear to this day. It was the fifth game to use the SCUMM engine.NOTE: The source ports listed below need the data from the original game, but most modern digital retailers only sell the Special Edition, which does not work with these source ports.
 Developer:  Lucasfilm Games
-Release Date:  October 1990"
+Release Date:  October 1990
+  DESC
   homepage "https://macsourceports.com/game/secretofmonkeyisland"
 
   app "dreamm.app"

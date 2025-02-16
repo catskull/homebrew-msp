@@ -4,10 +4,12 @@ cask "doom-3-bfg-edition" do
 
   url "https://github.com/MacSourcePorts/RBDOOM-3-BFG/releases/download/1.4.0/RBDoom3BFG-1.4.0.dmg"
   name "DOOM 3: BFG Edition"
-  desc "DOOM 3: BFG Edition was a 2012 re-release of DOOM 3 with enhanced graphics and an additional episode.NOTE: Most retailers such as Steam and GOG are now selling DOOM 3 and DOOM 3: BFG Edition as a package together under the name DOOM 3 so buying that will get you both games.
+  desc <<~DESC
+DOOM 3: BFG Edition was a 2012 re-release of DOOM 3 with enhanced graphics and an additional episode.NOTE: Most retailers such as Steam and GOG are now selling DOOM 3 and DOOM 3: BFG Edition as a package together under the name DOOM 3 so buying that will get you both games.
 Developer:  id Software
 Release Date:  October 16, 2012
-Source Code Release Date:  November 26, 2012"
+Source Code Release Date:  November 26, 2012
+  DESC
   homepage "https://macsourceports.com/game/doom3bfg"
 
   app "RBDoom3BFG.app"

@@ -4,9 +4,11 @@ cask "gothic-ii" do
 
   url "https://github.com/MacSourcePorts/MSPBuildSystem/releases/download/OpenGothic_0.83/OpenGothic-0.83.dmg"
   name "Gothic II"
-  desc "Gothic II is an action role-playing game set in a medieval fantasy world and follows the nameless hero from the original game as they explore a variety of environments, complete quests, and choose their faction to play as either a warrior, rogue, or mage, each with their own unique skills and abilities. Gothic II features an open-world design whose story and characters are highly regarded for their depth and complexity, and the game has amassed a devout following over the years. The game spawned an expansion pack, Gothic II: Night of the Raven and a re-release of the two under the name Gothic II: Gold Edition.The OpenGothic project has recreated the engine for Gothic II, and we have assembled an app bundle build for your convenience.KNOWN ISSUE: When saving a game and typing in a name for the save, the text you are entering may not be visible. Hitting Return should save the game anyway and your title will appear next time you want to load.
+  desc <<~DESC
+Gothic II is an action role-playing game set in a medieval fantasy world and follows the nameless hero from the original game as they explore a variety of environments, complete quests, and choose their faction to play as either a warrior, rogue, or mage, each with their own unique skills and abilities. Gothic II features an open-world design whose story and characters are highly regarded for their depth and complexity, and the game has amassed a devout following over the years. The game spawned an expansion pack, Gothic II: Night of the Raven and a re-release of the two under the name Gothic II: Gold Edition.The OpenGothic project has recreated the engine for Gothic II, and we have assembled an app bundle build for your convenience.KNOWN ISSUE: When saving a game and typing in a name for the save, the text you are entering may not be visible. Hitting Return should save the game anyway and your title will appear next time you want to load.
 Developer:  Piranha Bytes
-Release Date:  November 29, 2002"
+Release Date:  November 29, 2002
+  DESC
   homepage "https://macsourceports.com/game/gothic2"
 
   app "OpenGothic.app"

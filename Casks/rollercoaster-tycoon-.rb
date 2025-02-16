@@ -4,9 +4,11 @@ cask "rollercoaster-tycoon-" do
 
   url "https://github.com/OpenRCT2/OpenRCT2/releases/download/v0.4.18/OpenRCT2-v0.4.18-macos-universal.zip"
   name "RollerCoaster Tycoon 2"
-  desc "Another game from the mind of Chris Sawyer, RollerCoaster Tycoon 2 shares the same pixel art style and hardcore interface as his other games.
+  desc <<~DESC
+Another game from the mind of Chris Sawyer, RollerCoaster Tycoon 2 shares the same pixel art style and hardcore interface as his other games.
 Developer:  Chris Sawyer
-Release Date:  October 15, 2002"
+Release Date:  October 15, 2002
+  DESC
   homepage "https://macsourceports.com/game/rct2"
 
   app "OpenRCT2.app"

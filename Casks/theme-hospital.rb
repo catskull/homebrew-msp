@@ -4,9 +4,11 @@ cask "theme-hospital" do
 
   url "https://github.com/CorsixTH/CorsixTH/releases/download/v0.68.0/CorsixTH-0.68.0-arm64.dmg"
   name "Theme Hospital"
-  desc "Famed Amiga developer Bullfrog released this second entry in the "Theme" series (following Theme Park) which allowed players to design and run a hospital. The name Theme Hospital may not make a ton of sense but the game was ridiculously popular.Note that for various reasons I was not able to get a Universal 2 port of CorsixTH working but I decided not to let that be a show stopper. Intel users must run the Intel build, Apple Silicon users can run either but the native Apple Silicon version is preferred for performance and battery reasons.
+  desc <<~DESC
+Famed Amiga developer Bullfrog released this second entry in the "Theme" series (following Theme Park) which allowed players to design and run a hospital. The name Theme Hospital may not make a ton of sense but the game was ridiculously popular.Note that for various reasons I was not able to get a Universal 2 port of CorsixTH working but I decided not to let that be a show stopper. Intel users must run the Intel build, Apple Silicon users can run either but the native Apple Silicon version is preferred for performance and battery reasons.
 Developer:  Bullfrog Productions
-Release Date:  March 28, 1997"
+Release Date:  March 28, 1997
+  DESC
   homepage "https://macsourceports.com/game/themehospital"
 
   app "CorsixTH.app"

@@ -4,10 +4,12 @@ cask "heretic" do
 
   url "https://github.com/ZDoom/gzdoom/releases/download/g4.14.0/gzdoom-4-14-0-macos.zip"
   name "Heretic"
-  desc "Running on the DOOM engine, Heretic went an entirely different direction with dark fantasy elements, interactive environments, and inventory items. Also sometimes you can fly.
+  desc <<~DESC
+Running on the DOOM engine, Heretic went an entirely different direction with dark fantasy elements, interactive environments, and inventory items. Also sometimes you can fly.
 Developer:  Raven Software
 Release Date:  December 23, 1994
-Source Code Release Date:  January 11, 1999"
+Source Code Release Date:  January 11, 1999
+  DESC
   homepage "https://macsourceports.com/game/heretic"
 
   app "GZDoom.app"

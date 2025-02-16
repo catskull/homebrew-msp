@@ -4,9 +4,11 @@ cask "star-wars-jedi-knight-mysteries-of-the-sith" do
 
   url "https://github.com/MacSourcePorts/MSPBuildSystem/releases/download/OpenJKDF2_0.9.1/OpenJKDF2-0.9.1.dmg"
   name "Star Wars Jedi Knight: Mysteries of the Sith"
-  desc "Most of the time an expansion pack is just more content, usually some new enemies, etc. Star Wars Jedi Knight: Mysteries of the Sith is an expansion to Star Wars Jedi Knight: Dark Forces II but it featured more improvements like colored lighting and improved textures. It also featured Mara Jade, the most popular Expanded Universe character in history.
+  desc <<~DESC
+Most of the time an expansion pack is just more content, usually some new enemies, etc. Star Wars Jedi Knight: Mysteries of the Sith is an expansion to Star Wars Jedi Knight: Dark Forces II but it featured more improvements like colored lighting and improved textures. It also featured Mara Jade, the most popular Expanded Universe character in history.
 Developer:  LucasArts
-Release Date:  February 7, 1998"
+Release Date:  February 7, 1998
+  DESC
   homepage "https://macsourceports.com/game/swjkmots"
 
   app "OpenJKDF2.app"

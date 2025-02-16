@@ -4,9 +4,11 @@ cask "monkey-island--lechucks-revenge" do
 
   url "https://aarongiles.com/dreamm/releases/dreamm-2.1.2-macos.dmg"
   name "Monkey Island 2: LeChuck's Revenge"
-  desc "Monkey Island 2: LeChuck's Revenge is a point-and-click adventure game from LucasArts (formerly Lucasfilm Games, which it's now called again since Disney took over) that follows the further adventures of Guybrush Threepwood as he sets out to find the treasure of the legendary pirate, Big Whoop. Along the way, he must face off against his arch-nemesis, the zombie pirate LeChuck, and solve a series of challenging puzzles. The game features an immersive storyline, memorable characters, and a unique combination of humor and drama that has made it a fan favorite. It was the sixth game to use the SCUMM engine.NOTE: The source ports listed below need the data from the original game, but most modern digital retailers only sell the Special Edition, which does not work with these source ports.
+  desc <<~DESC
+Monkey Island 2: LeChuck's Revenge is a point-and-click adventure game from LucasArts (formerly Lucasfilm Games, which it's now called again since Disney took over) that follows the further adventures of Guybrush Threepwood as he sets out to find the treasure of the legendary pirate, Big Whoop. Along the way, he must face off against his arch-nemesis, the zombie pirate LeChuck, and solve a series of challenging puzzles. The game features an immersive storyline, memorable characters, and a unique combination of humor and drama that has made it a fan favorite. It was the sixth game to use the SCUMM engine.NOTE: The source ports listed below need the data from the original game, but most modern digital retailers only sell the Special Edition, which does not work with these source ports.
 Developer:  LucasArts
-Release Date:  December 1991"
+Release Date:  December 1991
+  DESC
   homepage "https://macsourceports.com/game/monkeyisland2"
 
   app "dreamm.app"

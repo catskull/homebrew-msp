@@ -4,9 +4,11 @@ cask "sam--max-hit-the-road" do
 
   url "https://aarongiles.com/dreamm/releases/dreamm-2.1.2-macos.dmg"
   name "Sam & Max Hit the Road"
-  desc "Sam & Max Hit the Road is a point-and-click adventure game that follows the adventures of the freelance police, Sam and Max, as they set out to solve a case involving a missing carnival bigfoot. Along the way, you must explore various locations, solve puzzles, and interact with a variety of bizarre characters, including a talking tattoo and a country singer with a robotic arm. The game is known for its irreverent humor, quirky characters, and colorful graphics, as well as its creative use of inventory items to solve puzzles. It was the ninth game to use the SCUMM engine.
+  desc <<~DESC
+Sam & Max Hit the Road is a point-and-click adventure game that follows the adventures of the freelance police, Sam and Max, as they set out to solve a case involving a missing carnival bigfoot. Along the way, you must explore various locations, solve puzzles, and interact with a variety of bizarre characters, including a talking tattoo and a country singer with a robotic arm. The game is known for its irreverent humor, quirky characters, and colorful graphics, as well as its creative use of inventory items to solve puzzles. It was the ninth game to use the SCUMM engine.
 Developer:  LucasArts
-Release Date:  November 1993"
+Release Date:  November 1993
+  DESC
   homepage "https://macsourceports.com/game/samandmax"
 
   app "dreamm.app"

@@ -4,10 +4,12 @@ cask "catacomb-apocalypse" do
 
   url "https://github.com/MacSourcePorts/MSPBuildSystem/releases/download/ReflectionHLE-0.44.0/reflectionhle-20240926.dmg"
   name "Catacomb Apocalypse"
-  desc "The final game in the Catacombs series mixes things up a bit by being set in the distant future. It features fantasy and sci-fi elements mixed together and pits you against robots and so forth. It also reintroduces the hub system from the first game. So in case you needed even more EGA FPS in your life, here's your hookup.
+  desc <<~DESC
+The final game in the Catacombs series mixes things up a bit by being set in the distant future. It features fantasy and sci-fi elements mixed together and pits you against robots and so forth. It also reintroduces the hub system from the first game. So in case you needed even more EGA FPS in your life, here's your hookup.
 Developer:  Softdisk
 Release Date:  1993
-Source Code Release Date:  June 9, 2014"
+Source Code Release Date:  June 9, 2014
+  DESC
   homepage "https://macsourceports.com/game/catacombapocalypse"
 
   app "reflectionhle.app"

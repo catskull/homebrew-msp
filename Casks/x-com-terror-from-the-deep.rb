@@ -4,9 +4,11 @@ cask "x-com-terror-from-the-deep" do
 
   url "https://github.com/MacSourcePorts/OpenXcom/releases/download/v1.0/OpenXcom-1.0.dmg"
   name "X-COM: Terror from the Deep"
-  desc "X-COM: Terror from the Deep is the sequel to X-COM: UFO Defense, with the aliens attacking Earth again, but this time they're invading the oceans, sending most of the game underwater for a change.NOTE: If you have the data from both X-COM: UFO Defense/UFO: Enemy Unknown and X-COM: Terror from the Deep, you can use the "Mods" menu in the game to switch between the two.
+  desc <<~DESC
+X-COM: Terror from the Deep is the sequel to X-COM: UFO Defense, with the aliens attacking Earth again, but this time they're invading the oceans, sending most of the game underwater for a change.NOTE: If you have the data from both X-COM: UFO Defense/UFO: Enemy Unknown and X-COM: Terror from the Deep, you can use the "Mods" menu in the game to switch between the two.
 Developer:  MicroProse
-Release Date:  June 1, 1995"
+Release Date:  June 1, 1995
+  DESC
   homepage "https://macsourceports.com/game/xcomtftd"
 
   app "OpenXcom.app"

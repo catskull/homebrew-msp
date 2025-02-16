@@ -4,10 +4,12 @@ cask "doom" do
 
   url "https://github.com/ZDoom/gzdoom/releases/download/g4.14.0/gzdoom-4-14-0-macos.zip"
   name "DOOM"
-  desc "You can't *not* have DOOM on a site like this. With its classic and low system requirements, DOOM famously runs on anything with a screen and a processor, so naturally it (still) runs on the Mac. The most active source port is GZDoom, which is ahead of the curve on having a Universal 2 app with M1 Mac support so we're just linking to it here. Be sure to check out their website for more info.We've also linked to ZDoom, an older but discontinued predecessor to GZDoom, for those of you who want to run DOOM on an older PowerPC Mac.
+  desc <<~DESC
+You can't *not* have DOOM on a site like this. With its classic and low system requirements, DOOM famously runs on anything with a screen and a processor, so naturally it (still) runs on the Mac. The most active source port is GZDoom, which is ahead of the curve on having a Universal 2 app with M1 Mac support so we're just linking to it here. Be sure to check out their website for more info.We've also linked to ZDoom, an older but discontinued predecessor to GZDoom, for those of you who want to run DOOM on an older PowerPC Mac.
 Developer:  id Software
 Release Date:  December 10, 1993
-Source Code Release Date:  December 23, 1997"
+Source Code Release Date:  December 23, 1997
+  DESC
   homepage "https://macsourceports.com/game/doom"
 
   app "GZDoom.app"

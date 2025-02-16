@@ -4,9 +4,11 @@ cask "powerslave" do
 
   url "https://github.com/ZDoom/Raze/releases/download/1.10.2/raze-macos-1.10.2.zip"
   name "PowerSlave"
-  desc "PowerSlave, also released as Exhumed in some locations, is a first person shooter with an Egyptian theme. It was also released on various consoles and the source code was never officially released, but modern Build engine ports do a decent job with a reverse engineered version of its gameplay.
+  desc <<~DESC
+PowerSlave, also released as Exhumed in some locations, is a first person shooter with an Egyptian theme. It was also released on various consoles and the source code was never officially released, but modern Build engine ports do a decent job with a reverse engineered version of its gameplay.
 Developer:  Lobotomy Software
-Release Date:  December 31, 1996"
+Release Date:  December 31, 1996
+  DESC
   homepage "https://macsourceports.com/game/powerslave"
 
   app "Raze.app"

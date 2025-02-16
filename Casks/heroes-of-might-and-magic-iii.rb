@@ -4,9 +4,11 @@ cask "heroes-of-might-and-magic-iii" do
 
   url "https://github.com/vcmi/vcmi/releases/download/1.6.3/VCMI-macOS-arm.dmg"
   name "Heroes of Might and Magic III"
-  desc "Heroes of Might and Magic III is another 4X turn-based strategy game and is one of the best games in the series.Although my aim is to host signed and notarized game bundles on Mac Source Ports, the VCMI project recently added Apple Silicon support and is sufficiently complex that at this time I'm going to link to their work. We may host a notarized version in the future.Because the app bundle is not notarized, on first run you may run into issues. The shortest answer is to right-click on the app bundle (VCMI.app) and select Open. The long answer is here.
+  desc <<~DESC
+Heroes of Might and Magic III is another 4X turn-based strategy game and is one of the best games in the series.Although my aim is to host signed and notarized game bundles on Mac Source Ports, the VCMI project recently added Apple Silicon support and is sufficiently complex that at this time I'm going to link to their work. We may host a notarized version in the future.Because the app bundle is not notarized, on first run you may run into issues. The shortest answer is to right-click on the app bundle (VCMI.app) and select Open. The long answer is here.
 Developer:  New World Computing
-Release Date:  March 3, 1999"
+Release Date:  March 3, 1999
+  DESC
   homepage "https://macsourceports.com/game/homm3"
 
   app "VCMI.app"

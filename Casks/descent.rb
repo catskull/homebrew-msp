@@ -4,10 +4,12 @@ cask "descent" do
 
   url "https://github.com/MacSourcePorts/MSPBuildSystem/releases/download/DXX-Rebirth_0.60/D1X-Rebirth-0.6.0.dmg"
   name "Descent"
-  desc "While the gaming world was in a rush to make FPS games to compete with DOOM, Interplay and Parallax took a different approach and turned things upside down with Descent. Literally. Instead of a grounded marine with a gun you were in a spaceship with six degrees of freedom. The result was an addictive if disorienting game that still holds up today.NOTE: The DXX-Rebirth project builds into separate executables for Descent and Descent II. To play both games you will need to download both apps.
+  desc <<~DESC
+While the gaming world was in a rush to make FPS games to compete with DOOM, Interplay and Parallax took a different approach and turned things upside down with Descent. Literally. Instead of a grounded marine with a gun you were in a spaceship with six degrees of freedom. The result was an addictive if disorienting game that still holds up today.NOTE: The DXX-Rebirth project builds into separate executables for Descent and Descent II. To play both games you will need to download both apps.
 Developer:  Parallax Software
 Release Date:  March 17, 1995
-Source Code Release Date:  January 12, 1998"
+Source Code Release Date:  January 12, 1998
+  DESC
   homepage "https://macsourceports.com/game/descent"
 
   app "D1X-Rebirth.app"

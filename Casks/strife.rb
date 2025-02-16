@@ -4,10 +4,12 @@ cask "strife" do
 
   url "https://github.com/ZDoom/gzdoom/releases/download/g4.14.0/gzdoom-4-14-0-macos.zip"
   name "Strife"
-  desc "Demonstrating the flexibility of the DOOM engine (or at least developers' willingness to try and use it everywhere), Strife is an RPG with FPS elements. If nothing else, it's a neat idea. One interesting side note is that the original source code for this game was lost, the support for this game was reverse engineered.
+  desc <<~DESC
+Demonstrating the flexibility of the DOOM engine (or at least developers' willingness to try and use it everywhere), Strife is an RPG with FPS elements. If nothing else, it's a neat idea. One interesting side note is that the original source code for this game was lost, the support for this game was reverse engineered.
 Developer:  Rogue Software
 Release Date:  May 15, 1996
-Source Code Release Date:  December 12, 2014"
+Source Code Release Date:  December 12, 2014
+  DESC
   homepage "https://macsourceports.com/game/strife"
 
   app "GZDoom.app"

@@ -4,9 +4,11 @@ cask "commander-keen-in-aliens-ate-my-babysitter" do
 
   url "https://github.com/MacSourcePorts/MSPBuildSystem/releases/download/Commander-Genius_3.5.2/CGenius-3.5.2.dmg"
   name "Commander Keen in Aliens Ate My Babysitter"
-  desc "Commander Keen in Aliens Ate My Babysitter is the final game in the Commander Keen series developed by id Software (though a Game Boy Color sequel/reboot would be developed externally in 2001). Released as a retail sequel, it contains the sixth episode of the original series (seventh if you count Keen Dreams).Note that most digital retailers market someting called the Commander Keen Complete Pack which contains the first two games but not this final game due to the surprisingly complicated publication history of the series. Commander Genius has incomplete support for Keen Dreams, but fully supports Aliens Ate My Babysitter, should you be able to find it somewhere.
+  desc <<~DESC
+Commander Keen in Aliens Ate My Babysitter is the final game in the Commander Keen series developed by id Software (though a Game Boy Color sequel/reboot would be developed externally in 2001). Released as a retail sequel, it contains the sixth episode of the original series (seventh if you count Keen Dreams).Note that most digital retailers market someting called the Commander Keen Complete Pack which contains the first two games but not this final game due to the surprisingly complicated publication history of the series. Commander Genius has incomplete support for Keen Dreams, but fully supports Aliens Ate My Babysitter, should you be able to find it somewhere.
 Developer:  id Software
-Release Date:  December 1991"
+Release Date:  December 1991
+  DESC
   homepage "https://macsourceports.com/game/ckeen3"
 
   app "CGenius.app"

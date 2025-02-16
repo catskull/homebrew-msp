@@ -4,10 +4,12 @@ cask "star-wars-jedi-knight-ii-jedi-outcast" do
 
   url "https://github.com/MacSourcePorts/MSPBuildSystem/releases/download/OpenJK_2024-11-18/OpenJO-SP-1.0.dmg"
   name "Star Wars Jedi Knight II: Jedi Outcast"
-  desc "The third entry in the increasingly confusingly named franchise, Star Wars Jedi Knight II: Jedi Outcast (aka Star Wars: Dark Forces III: Jedi Knight II: Jedi Outcast) eschews a custom engine in favor of id Tech 3, which powered Quake III: Arena. The result is a game that has graphically aged better than its predecessors.
+  desc <<~DESC
+The third entry in the increasingly confusingly named franchise, Star Wars Jedi Knight II: Jedi Outcast (aka Star Wars: Dark Forces III: Jedi Knight II: Jedi Outcast) eschews a custom engine in favor of id Tech 3, which powered Quake III: Arena. The result is a game that has graphically aged better than its predecessors.
 Developer:  Raven Software
 Release Date:  March 26, 2002
-Source Code Release Date:  April 3, 2013"
+Source Code Release Date:  April 3, 2013
+  DESC
   homepage "https://macsourceports.com/game/swjk2"
 
   app "OpenJO-SP.app"

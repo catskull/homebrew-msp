@@ -4,9 +4,11 @@ cask "star-wars-tie-fighter" do
 
   url "https://aarongiles.com/dreamm/releases/dreamm-2.1.2-macos.dmg"
   name "Star Wars: TIE Fighter"
-  desc "From a time when it seemed LucasArts could do no wrong, Star Wars: TIE Fighter is a space simulation game that flips the script on the original Star Wars trilogy, putting you in the role of a TIE Fighter pilot for the Galactic Empire. You must complete a series of missions that involve defending the Empire's interests, hunting down Rebel Alliance targets, and engaging in tense dogfights with enemy ships. The game features a deep and engaging storyline, a variety of ship upgrades and weapons, and detailed graphics and sound effects that bring the Star Wars universe to life. With its challenging gameplay, complex strategy, and innovative features, Star Wars: TIE Fighter is another true classic of the space simulation genre.
+  desc <<~DESC
+From a time when it seemed LucasArts could do no wrong, Star Wars: TIE Fighter is a space simulation game that flips the script on the original Star Wars trilogy, putting you in the role of a TIE Fighter pilot for the Galactic Empire. You must complete a series of missions that involve defending the Empire's interests, hunting down Rebel Alliance targets, and engaging in tense dogfights with enemy ships. The game features a deep and engaging storyline, a variety of ship upgrades and weapons, and detailed graphics and sound effects that bring the Star Wars universe to life. With its challenging gameplay, complex strategy, and innovative features, Star Wars: TIE Fighter is another true classic of the space simulation genre.
 Developer:  LucasArts
-Release Date:  July 10, 1994"
+Release Date:  July 10, 1994
+  DESC
   homepage "https://macsourceports.com/game/swtiefighter"
 
   app "dreamm.app"

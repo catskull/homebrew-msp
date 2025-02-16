@@ -4,9 +4,11 @@ cask "sonic-mania" do
 
   url "https://github.com/Sappharad/Sonic-Mania-Decompilation/releases/download/v1.0.0-mac/RSDKv5.zip"
   name "Sonic Mania"
-  desc "Sonic Mania is a sidecrolling 2017 Sonic game released by Sega. After several years of substandard Sonic games, including an attempt at a fourth 2D sidescroller, Sega decided perhaps the hardcore fans and ROM hackers might do a better job, so they allowed this game to be developed by a team including Christian Whitehead, whose reverse engineered Retro Engine was designed for allowing Sonic ports onto other platforms. The result was the best received Sonic game in fifteen years.The Retro Engine was a reverse engineered engine for Sonic games and RSDK is a reverse engineering of the Retro Engine. It's reverse engineering all the way down.
+  desc <<~DESC
+Sonic Mania is a sidecrolling 2017 Sonic game released by Sega. After several years of substandard Sonic games, including an attempt at a fourth 2D sidescroller, Sega decided perhaps the hardcore fans and ROM hackers might do a better job, so they allowed this game to be developed by a team including Christian Whitehead, whose reverse engineered Retro Engine was designed for allowing Sonic ports onto other platforms. The result was the best received Sonic game in fifteen years.The Retro Engine was a reverse engineered engine for Sonic games and RSDK is a reverse engineering of the Retro Engine. It's reverse engineering all the way down.
 Developer:  Christian Whitehead / PagodaWest Games / Headcannon
-Release Date:  August 15, 2017"
+Release Date:  August 15, 2017
+  DESC
   homepage "https://macsourceports.com/game/sonicmania"
 
   app "RSDKv5.app"
