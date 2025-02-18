@@ -1,8 +1,8 @@
 cask "heroes-of-might-and-magic-ii" do
   version :latest
-  sha256 "add185afafb5204e9f33568fb20a12e3f7b29ebbc538d53948e30d68fb65ca49"
+  sha256 "8061e097c7282fc1a8f17471d6b1c22e658ca785c24d36d3c72e347ee1dd4994"
 
-  url "https://github.com/MacSourcePorts/MSPBuildSystem/releases/download/fheroes2_1.1.5/fheroes2-1.1.5.dmg"
+  url "https://github.com/MacSourcePorts/MSPBuildSystem/releases/download/fheroes2_1.1.6/fheroes2-1.1.6.dmg"
   name "Heroes of Might and Magic II"
   desc <<~DESC
 Heroes of Might and Magic II is a 4X turn-based strategy game. Ranked once by PC Gamer as the sixth-best game of all time it features resource building, new factions, skills, and a single-player campaign.
