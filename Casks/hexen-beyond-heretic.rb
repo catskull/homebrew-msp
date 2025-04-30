@@ -1,16 +1,16 @@
 cask "hexen-beyond-heretic" do
   version :latest
-  sha256 "587b8e234392d4494e7abe32887d4ffce0920394d0f0a254048e03eabc7e3bca"
+  sha256 "d36926e34f41b003624e826ff635b167482c1d4d79676f53dad7b5b5c13f8983"
 
-  url "https://github.com/ZDoom/gzdoom/releases/download/g4.14.0/gzdoom-4-14-0-macos.zip"
+  url "https://github.com/ZDoom/gzdoom/releases/download/g4.14.1/gzdoom-4-14-1-macos.zip"
   name "Hexen: Beyond Heretic"
   desc <<~DESC
-The sequel to Heretic, also running on the DOOM, Hexen: Beyond Heretic builds on Heretic's foundation by adding selectable classes and a hub structure.
+    The sequel to Heretic, also running on the DOOM, Hexen: Beyond Heretic builds on Heretic's foundation by adding selectable classes and a hub structure.
 Developer:  Raven Software
 Release Date:  October 30, 1995
 Source Code Release Date:  January 11, 1999
-  DESC
-  homepage "https://macsourceports.com/game/hexen"
+DESC
+homepage "https://macsourceports.com/game/hexen"
 
   app "GZDoom.app"
 

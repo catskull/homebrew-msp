@@ -1,16 +1,16 @@
 cask "heretic" do
   version :latest
-  sha256 "587b8e234392d4494e7abe32887d4ffce0920394d0f0a254048e03eabc7e3bca"
+  sha256 "d36926e34f41b003624e826ff635b167482c1d4d79676f53dad7b5b5c13f8983"
 
-  url "https://github.com/ZDoom/gzdoom/releases/download/g4.14.0/gzdoom-4-14-0-macos.zip"
+  url "https://github.com/ZDoom/gzdoom/releases/download/g4.14.1/gzdoom-4-14-1-macos.zip"
   name "Heretic"
   desc <<~DESC
-Running on the DOOM engine, Heretic went an entirely different direction with dark fantasy elements, interactive environments, and inventory items. Also sometimes you can fly.
+    Running on the DOOM engine, Heretic went an entirely different direction with dark fantasy elements, interactive environments, and inventory items. Also sometimes you can fly.
 Developer:  Raven Software
 Release Date:  December 23, 1994
 Source Code Release Date:  January 11, 1999
-  DESC
-  homepage "https://macsourceports.com/game/heretic"
+DESC
+homepage "https://macsourceports.com/game/heretic"
 
   app "GZDoom.app"
 

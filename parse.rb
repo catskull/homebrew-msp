@@ -132,15 +132,15 @@ cask_template = <<~CASK
     url "#{download_url}"
     name "#{app_name}"
     desc <<~DESC
-      #{description.strip}
-  DESC
-  homepage "https://macsourceports.com/game#{html_file.split('/game').last.split('.html').first}"
+#{description.strip}
+    DESC
+    homepage "https://macsourceports.com/game#{html_file.split('/game').last.split('.html').first}"
 
     app "#{extracted_app_name}.app"
 
     postflight do
       puts <<~POSTFLIGHT
-        #{install_instructions}
+#{install_instructions}
       POSTFLIGHT
     end
   end

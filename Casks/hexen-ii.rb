@@ -1,16 +1,16 @@
 cask "hexen-ii" do
   version :latest
-  sha256 "ac0d0901b59dde21aad044835bc87ff056c31400f6745dd46fb9d655ac2b39a1"
+  sha256 "74554a43e6a7edf208f48a9230f35e52d5d42e477b9eaa99433b73bc35769754"
 
-  url "https://github.com/MacSourcePorts/uhexen2/releases/download/uHexen_1.5.9/uhexen2-1.5.9-gl.dmg"
+  url "https://github.com/MacSourcePorts/MSPBuildSystem/releases/download/uHexen2_1.5.10-2025-04-23/uhexen2-1.5.10.dmg"
   name "Hexen II"
   desc <<~DESC
-Continuing the pattern of the first DOOM engine game being a fantasy RPG FPS from Raven Software, the first Quake engine game is another fantasy RPG FPS from Raven Software. Hexen II continues its predecessors pattern of multiple character classes, a hub based structure, and then-innovative use of 3D environments. It's a pretty solid old school FPS experienceNOTE: At this time, this source port has issues with being built for Apple Silicon so I'm only doing an Intel build of the OpenGL version. The Software-based version is Universal2.ALSO NOTE: A small percentage of the time the OpenGL version of the game might fail to launch, and I'm looking into why. Try again and it should work.
+    Continuing the pattern of the first DOOM engine game being a fantasy RPG FPS from Raven Software, the first Quake engine game is another fantasy RPG FPS from Raven Software. Hexen II continues its predecessors pattern of multiple character classes, a hub based structure, and then-innovative use of 3D environments. It's a pretty solid old school FPS experience and the only id Tech 2 game to ship before Quake II
 Developer:  Raven Software
 Release Date:  September 11, 1997
 Source Code Release Date:  November 10, 2000
-  DESC
-  homepage "https://macsourceports.com/game/hexen2"
+DESC
+homepage "https://macsourceports.com/game/hexen2"
 
   app "uhexen2.app"
 

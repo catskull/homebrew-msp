@@ -9,7 +9,7 @@ cask "jazz-jackrabbit-2" do
 Developer:  Epic MegaGames
 Release Date:  May 7, 1998
 DESC
-homepage "https://macsourceports.com/gamepage"
+homepage "https://macsourceports.com/game/jazzjackrabbit2"
 
   app "Jazz² Resurrection.app"
 
